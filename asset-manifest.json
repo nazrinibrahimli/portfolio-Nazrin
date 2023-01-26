@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-Nazrin/static/css/main.542f5fce.css",
+    "main.css": "/portfolio-Nazrin/static/css/main.7264f2f3.css",
     "main.js": "/portfolio-Nazrin/static/js/main.10dc8b4c.js",
     "static/media/restaurant.png": "/portfolio-Nazrin/static/media/restaurant.983eaca01455eeeb1536.png",
     "static/media/ecommerce.png": "/portfolio-Nazrin/static/media/ecommerce.5392f5c1fe7f15eff67f.png",
@@ -12,11 +12,11 @@
     "static/media/Resume.pdf": "/portfolio-Nazrin/static/media/Resume.9879f531e430495d30c8.pdf",
     "static/media/icon.svg": "/portfolio-Nazrin/static/media/icon.d8ac0e3ee298377832302e01ee321d06.svg",
     "index.html": "/portfolio-Nazrin/index.html",
-    "main.542f5fce.css.map": "/portfolio-Nazrin/static/css/main.542f5fce.css.map",
+    "main.7264f2f3.css.map": "/portfolio-Nazrin/static/css/main.7264f2f3.css.map",
     "main.10dc8b4c.js.map": "/portfolio-Nazrin/static/js/main.10dc8b4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.542f5fce.css",
+    "static/css/main.7264f2f3.css",
     "static/js/main.10dc8b4c.js"
   ]
 }
