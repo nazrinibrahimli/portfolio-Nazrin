@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio-Nazrin/static/css/main.7264f2f3.css",
-    "main.js": "/portfolio-Nazrin/static/js/main.10dc8b4c.js",
+    "main.js": "/portfolio-Nazrin/static/js/main.5fa99232.js",
     "static/media/restaurant.png": "/portfolio-Nazrin/static/media/restaurant.983eaca01455eeeb1536.png",
     "static/media/ecommerce.png": "/portfolio-Nazrin/static/media/ecommerce.5392f5c1fe7f15eff67f.png",
     "static/media/ecommerce-2.png": "/portfolio-Nazrin/static/media/ecommerce-2.f3a2861d97be06ff3907.png",
     "static/media/restaurant-2.png": "/portfolio-Nazrin/static/media/restaurant-2.2043915a7b5534f34fe4.png",
     "static/media/caspiansoft-3.png": "/portfolio-Nazrin/static/media/caspiansoft-3.168d13bd0805c68206fd.png",
     "static/media/task-tracker.png": "/portfolio-Nazrin/static/media/task-tracker.5fc1bd719a700403ee83.png",
-    "static/media/flutterApp.png": "/portfolio-Nazrin/static/media/flutterApp.4debfe9dd07249e81280.png",
+    "static/media/flutter-triple.png": "/portfolio-Nazrin/static/media/flutter-triple.791718987f185ab68ec4.png",
     "static/media/Resume.pdf": "/portfolio-Nazrin/static/media/Resume.9879f531e430495d30c8.pdf",
     "static/media/icon.svg": "/portfolio-Nazrin/static/media/icon.d8ac0e3ee298377832302e01ee321d06.svg",
     "index.html": "/portfolio-Nazrin/index.html",
     "main.7264f2f3.css.map": "/portfolio-Nazrin/static/css/main.7264f2f3.css.map",
-    "main.10dc8b4c.js.map": "/portfolio-Nazrin/static/js/main.10dc8b4c.js.map"
+    "main.5fa99232.js.map": "/portfolio-Nazrin/static/js/main.5fa99232.js.map"
   },
   "entrypoints": [
     "static/css/main.7264f2f3.css",
-    "static/js/main.10dc8b4c.js"
+    "static/js/main.5fa99232.js"
   ]
 }
