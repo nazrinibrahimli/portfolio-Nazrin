@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+.about-div{
+    width: 100%;
+    height: 56.25rem;
+    background-color: #ece7e1;
+    padding-top: 170px;
+    display: flex;
+
+}
+
+
+.name{
+    margin-top: 15px;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 6rem;
+    color: #577557;
+    width: 30rem;
+    border-radius: 2rem;
+    padding: 1rem 0 1rem;
+    font-family: 'Aboreto', cursive;
+
+
+}
+
+span{
+    font-family: 'Playfair Display', serif;
+    margin-left: 10px;
+    color:#28282B;
+    font-size:  1.25rem;
+
+
+}
+.inside-span{
+    font-size:  1.25rem;
+    padding: 10px 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #28282B;
+
+
+}
+.myName{
+    font-weight: 800;
+    color: black;
+}
+
+.about-me-info{
+    width: 65%;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    padding-top: 10px;
+    color: #28282B;
+
+
+}
+
+
+
+.left{
+    margin-left: 4.375rem;
+    padding-top: 60px;
+}
+.right{
+  
+    margin-left: 4.375rem;
+}
+
+.div-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #243e7e;
+    opacity: 0.8;
+    border-radius: 15px;
+    /* transform: rotate(25deg); */
+    
+}
+
+
+.web{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: auto;
+
+
+}
+
+.see-projects-button{
+    margin-top: 30px;
+    width: 11.25rem;
+    height: 60px;
+    /* background-color: #243e7e;; */
+    background-color: #28282B;
+    border: none;
+    border-radius: 2rem;
+    
+}
+
+.see-projects-button a{
+    color: #F9F5EB;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+.see-projects-button:hover{
+    background-color: #000000;
+    color: #000;
+ 
+}
+
+.see-projects-button:hover a{
+    color: #F9F5EB;
+ 
+}
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .name{
+        margin-top: 8px;
+        font-size: 4.375rem;
+        width: 17rem;
+    
+    }
+
+.about-me-info{
+    width: 18rem;
+    font-size: 1.25rem;
+    padding-top: 20px;
+    color:#28282B;
+}
+
+.inside-span{
+    width: 10rem;
+    font-size: 1.25rem;
+
+
+}
+
+.div-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #243e7e;
+    opacity: 0.8;
+    border-radius: 15px;
+    transform: rotate(25deg);
+    
+}
+.left{
+    padding: 20px 0 ;
+    width: 20rem;
+}
+
+
+.web{
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    padding: auto;
+
+
+}
+
+.right{
+    display: none;
+}
+
+
+
+ }
+
+
+
+
+ @media (max-width: 1180px) {
+ .div-bg{
+    transform: rotate(0deg);
+
+ }
+ .right{
+     margin-right: 70px;
+     margin-top: 90px;
+ }
+
+ @media (max-width: 768px) {
+
+    .about-div{
+        padding-top: 100px;
+    }
+   
+  
+
+ }
+   
+
+ @media (max-width: 912px) {
+
+    .about-div{
+        padding-top: 80px;
+    }
+   
+
+     .div-bg{
+         width: 300px;
+         height: 300px;
+     }
+
+  
+
+ }
+}
+
+@media(min-width: 395px)and(max-width: 940px) {
+
+    .name{
+        text-align: start;
+        font-size: 6rem;
+
+    }
+     }
+
+     @media (max-width: 575.98px) { 
+        .project{
+            margin-top: 8px;
+            font-size: 4.375rem;
+        
+        }
+    }
+    

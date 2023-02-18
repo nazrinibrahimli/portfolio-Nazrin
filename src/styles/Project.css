@@ -1,0 +1,52 @@
+.project {
+    font-size: 6rem;
+    color: #577557;
+    font-family: 'Aboreto', cursive;
+    margin-bottom: 7rem;
+    text-align: end;
+    padding-right: 4.375rem;
+
+}
+
+.github-link{
+    text-align: center;
+    color: #28282B;
+    font-size: 1.7rem;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+.github-link a, .github-link a:hover {
+    color: #28282B;
+    text-decoration: none;
+
+}
+
+.row{
+
+}
+
+.cart{
+    margin: 3rem auto;
+}
+
+
+@media (max-width: 575.98px) { 
+    .project{
+        margin-top: 8px;
+        font-size: 4.375rem;
+    
+    }
+}
+
+
+
+
+@media(min-width: 395px)and(max-width: 940px) {
+
+    .project{
+        text-align: start;
+        font-size: 6rem;
+        margin-left: 4.375rem;
+    }
+     }
