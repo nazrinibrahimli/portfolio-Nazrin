@@ -24,7 +24,7 @@ const Projects = () => {
      <Row>
         <Col><TwiceCard link="https://github.com/nargayeva/caspiansoft" title="Caspian Soft Company's Website" image={caspiansoft}  info="Caspian Soft company's website. Written with Vanilla Javascript, SASS, and HTML. It is responsive website." />
         </Col>
-        <Col><TwiceCard link="https://github.com/nazrinibrahimli/E-commerce-Bookstore" title="E-commerse Bookshop" image={ecommerce}  info="E-commerce website is written in React and Tailwind CSS . It is a fully responsive website." />
+        <Col><TwiceCard link="https://e-commerce-bookstore-five.vercel.app/" title="E-commerse Bookshop" image={ecommerce}  info="E-commerce website is written in React and Tailwind CSS . It is a fully responsive website." />
         </Col>
         </Row>
       <Row>
@@ -46,7 +46,7 @@ const Projects = () => {
       </Row> */}
 
     </Container>
-    <p className='github-link'><a href="https://github.com/nazrinibrahimli" target="_blank">See all projects</a></p>
+    <p className='github-link '><a href="https://github.com/nazrinibrahimli" target="_blank" className=''>See all projects</a></p>
  
       </div>
 
