@@ -8,7 +8,8 @@ import restaurant from '../images/restaurant.png'
 import restaurant2 from '../images/restaurant-2.png'
 import tasktracker from '../images/task-tracker.png'
 import caspiansoft from '../images/caspiansoft-3.png'
-import flutter from '../images/flutterApp.png'
+import flutter from '../images/flutter-triple.png'
+import agency from '../images/agency.png'
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -31,20 +32,12 @@ const Projects = () => {
         <Col><TwiceCard link="https://github.com/nazrinibrahimli/Booking" title="Flutter Booking App" image={flutter}  info="Ticket Booking App is written with advanced Flutter concepts." />
         </Col>
     
-        <Col><TwiceCard  link="https://github.com/nazrinibrahimli/Restaurant-website" title="Restaurant" image={restaurant} info="Restaurant website is a fully responsive and written with Vanilla Javascript, HTML and CSS."/>
+        <Col><TwiceCard  link="https://github.com/nazrinibrahimli/Restaurant-website" title="Dine Out Restaurant" image={restaurant} info="Restaurant website is a fully responsive and written with Vanilla Javascript, HTML and CSS."/>
+        </Col>
+        <Col><TwiceCard  link="https://github.com/nazrinibrahimli/A-gency-website" title="A'gency" image={agency} info="A'gency website is a fully responsive and written with Next.js,Tailwind, and MUI. "/>
         </Col>
     
       </Row>
-
-      {/* <Row>
-        <Col><TwiceCard title="E-commerse Bookshop" image={caspiansoft}  info="Caspian Soft company's website. Written with Vanilla Javascript, SASS, and HTML. It is responsive website." />
-        </Col>
-        <Col><TwiceCard title="Restaurant" image={restaurant} info="Restaurant website is a fully responsive and written with Vanilla Javascript, HTML and CSS."/>
-        </Col>
-        <Col><TwiceCard title="Task Tracker"  image={tasktracker} info="Website is created to demonstrate task traking system. Written with React and Typescript." />
-        </Col>
-      </Row> */}
-
     </Container>
     <p className='github-link '><a href="https://github.com/nazrinibrahimli" target="_blank" className=''>See all projects</a></p>
  

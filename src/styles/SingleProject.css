@@ -3,9 +3,13 @@
     width: 24.375rem;
     text-align: center;
     padding: 0;
-    margin-bottom: 4rem;
+    margin-bottom: 4rem;    
 
 }
+.cart:hover{
+    transform: scale(1.1);
+}
+
 
 .title{
     margin-left: 0;
@@ -58,7 +62,10 @@ width: 24rem;
 height: 15rem;
 border-radius: 15px;
 margin-bottom: 2rem;
+box-shadow: 5px 10px 8px #888888;
+
 }
+
 
 @media (max-width: 575.98px) { 
     .image-div, .info-div{
