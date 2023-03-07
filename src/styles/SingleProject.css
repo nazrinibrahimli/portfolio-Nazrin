@@ -69,16 +69,16 @@ box-shadow: 5px 10px 8px #888888;
 
 @media (max-width: 575.98px) { 
     .image-div, .info-div{
-        width: 22.2rem;
+        width: 20.2rem;
 
     }
     .image{
-        width: 22.2rem;
+        width: 20.2rem;
 
     }
 
     .info{
-        width: 22.2rem;
+        width: 20.2rem;
 text-align: center;    
 margin: 1.2rem auto;
 }

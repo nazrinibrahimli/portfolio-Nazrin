@@ -14,33 +14,22 @@ const [more, setMore] = useState(false);
 
   return (
     <div className='skills-div' >
-        <p className='skills-header '>Skill-Set 🦾</p>
+        <p className='skills-header '>Skills-Set </p>
     <Container className='skills-set'>
       <Row>
         <Col >
-        <Card name="HTML5" number={"90%"}  />
-
+        <Card name="HTML5,CSS,Bootstrap"   />
         </Col >
-        <Col>
-        <Card name="CSS/Bootstrap" number={"90%"} className=""/>
-
-        </Col>
-        <Col>
-        <Card name="JavaScript" number={"75%"}className="" />
-
-        </Col>
         <Col >
-        <Card name="React" number={"65%"} />
-
+        <Card name="JavaScript,React, Next.js" />
         </Col>
         <Col>
-        <Card name="Tailwind CSS" number={"50%"} />
-
+        <Card name="Flutter" className="" />
         </Col>
         <Col>
-        <Card name="Flutter" number={"50%"} />
-
+        <Card name="Tailwind CSS, MUI" />
         </Col>
+
 
       </Row>
     </Container>
