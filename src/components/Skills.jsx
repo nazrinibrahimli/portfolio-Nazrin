@@ -18,10 +18,10 @@ const [more, setMore] = useState(false);
     <Container className='skills-set'>
       <Row>
         <Col >
-        <Card name="HTML5,CSS,Bootstrap"   />
+        <Card name="HTML5, CSS, Bootstrap"   />
         </Col >
         <Col >
-        <Card name="JavaScript,React, Next.js" />
+        <Card name="JavaScript, React, Next.js" />
         </Col>
         <Col>
         <Card name="Flutter" className="" />
