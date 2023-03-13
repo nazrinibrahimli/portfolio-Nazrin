@@ -23,8 +23,9 @@ const Projects = () => {
      <p className="project">Projects.</p>
      <Container>
      <Row>
-        <Col><TwiceCard link="https://github.com/nargayeva/caspiansoft" title="Caspian Soft Company's Website" image={caspiansoft}  info="Caspian Soft company's website. Written with Vanilla Javascript, SASS, and HTML. It is responsive website." />
+     <Col><TwiceCard  link="https://agency-website-sage.vercel.app/" title="A'gency" image={agency} info="A'gency website is a fully responsive and written with Next.js,Tailwind, and MUI. "/>
         </Col>
+
         <Col><TwiceCard link="https://e-commerce-bookstore-five.vercel.app/" title="E-commerse Bookshop" image={ecommerce}  info="E-commerce website is written in React and Tailwind CSS . It is a fully responsive website." />
         </Col>
         </Row>
@@ -34,7 +35,7 @@ const Projects = () => {
     
         <Col><TwiceCard  link="https://github.com/nazrinibrahimli/Restaurant-website" title="Dine Out Restaurant" image={restaurant} info="Restaurant website is a fully responsive and written with Vanilla Javascript, HTML and CSS."/>
         </Col>
-        <Col><TwiceCard  link="https://agency-website-sage.vercel.app/" title="A'gency" image={agency} info="A'gency website is a fully responsive and written with Next.js,Tailwind, and MUI. "/>
+        <Col><TwiceCard link="https://github.com/nargayeva/caspiansoft" title="Caspian Soft Company's Website" image={caspiansoft}  info="Caspian Soft company's website. Written with Vanilla Javascript, SASS, and HTML. It is responsive website." />
         </Col>
     
       </Row>

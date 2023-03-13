@@ -14,20 +14,20 @@ const [more, setMore] = useState(false);
 
   return (
     <div className='skills-div' >
-        <p className='skills-header '>Skills-Set </p>
+        <p className='skills-header '>Skills-Set. </p>
     <Container className='skills-set'>
       <Row>
         <Col >
-        <Card name="HTML5, CSS, Bootstrap"   />
+        <Card name="< HTML5, CSS, Bootstrap />"   />
         </Col >
         <Col >
-        <Card name="JavaScript, React, Next.js" />
+        <Card name="< JavaScript, React, Next.js />" />
         </Col>
         <Col>
-        <Card name="Flutter" className="" />
+        <Card name="< Flutter />" className="" />
         </Col>
         <Col>
-        <Card name="Tailwind CSS, MUI" />
+        <Card name="< Tailwind CSS, MUI />" />
         </Col>
 
 

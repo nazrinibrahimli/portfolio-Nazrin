@@ -13,8 +13,8 @@ const About = () => {
      <div className='left'>
        <img src={icon} alt="code-icon" />
      <h1 className="name">About.</h1>
-       <p className="inside-span">Hi, I'm<span className='myName'>Nazrin Ibrahimli</span>. A front-end developer and problem solver. </p>
-       <p className='about-me-info'>I create front-end solutions that are scalable and have excellent user experiences. I look forward to helping companies grow or launch their products to the next level. 
+       <p className="inside-span">Hi, I'm<span className='myName'>Nazrin Ibrahimli. A front-end developer and problem solver</span>.  </p>
+       <p className='about-me-info'> {"<"} I create front-end solutions that are scalable and have excellent user experiences. I look forward to helping companies grow or launch their products to the next level  {"/>"} 
        </p>
       <button className='see-projects-button'>
         {/* <a href="https://github.com/nazrinibrahimli" target="_blank">see projects</a> */}
