@@ -17,7 +17,8 @@
     margin-left: 0;
     padding-left: 0;
     font-size: 6rem;
-    color: #28282B;
+    /* color: #28282B; */
+    color: #413543;
     width: 30rem;
     border-radius: 2rem;
     padding: 1rem 0 1rem;
@@ -39,10 +40,11 @@ span{
     padding: 10px 0;
     margin: 0;
     font-family: 'Playfair Display', serif;
-    color: #28282B;
-
-
+    /* color: #28282B; */
+    color: #2D2727;
+    width: 50rem;
 }
+
 .myName{
     font-weight: 800;
     color: black;
@@ -53,8 +55,8 @@ span{
     font-family: 'Playfair Display', serif;
     font-size: 1.25rem;
     padding-top: 10px;
-    color: #28282B;
-
+    /* color: #28282B; */
+    color: #2D2727;
 
 }
 
@@ -98,7 +100,8 @@ span{
     width: 11.25rem;
     height: 60px;
     /* background-color: #243e7e;; */
-    background-color: #28282B;
+    /* background-color: #28282B; */
+    background-color: #2D2727;
     border: none;
     border-radius: 2rem;
     
@@ -144,6 +147,8 @@ span{
 .inside-span{
     width: 10rem;
     font-size: 1.25rem;
+    width: 30rem;
+
 
 
 }
@@ -203,6 +208,10 @@ span{
         padding-top: 100px;
     }
    
+    .inside-span{
+        width: 25rem;
+
+    }
   
 
  }
@@ -230,6 +239,10 @@ span{
     .name{
         text-align: start;
         font-size: 6rem;
+
+    }
+    .inside-span{
+        width: 10rem;
 
     }
      }

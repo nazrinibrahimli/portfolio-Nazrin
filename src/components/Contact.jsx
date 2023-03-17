@@ -13,10 +13,11 @@ const Contact = () => {
       <p className='contact-info'>I can help build you next website.  </p>
               <div className='link-icon'>
               <a href = "mailto:nazaibraqimli99@gmail.com?subject = Contact for collaboration = Message" target="_blank">
-          Send me an Email! nazaibraqimli99@gmail.com </a> 
+          Click to send me an email! nazaibraqimli99@gmail.com 📩</a> 
+          <hr />
           <p >On the Internet:</p>
-              <a href="https://www.linkedin.com/in/nazrinibrahimli/"  target="_blank" >Linkedin </a>
-              <a href="https://github.com/nazrinibrahimli" target="_blank">Github</a>
+              <a href="https://www.linkedin.com/in/nazrinibrahimli/"  target="_blank" >Linkedin  ↗</a>
+              <a href="https://github.com/nazrinibrahimli" target="_blank">Github ↗</a>
               </div>
       </div>
     </div>

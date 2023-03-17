@@ -12,14 +12,12 @@ const About = () => {
 
      <div className='left'>
        <img src={icon} alt="code-icon" />
-     <h1 className="name">About.</h1>
-       <p className="inside-span">Hi, I'm<span className='myName'>Nazrin Ibrahimli. A front-end developer and problem solver</span>.  </p>
-       <p className='about-me-info'> {"<"} I create front-end solutions that are scalable and have excellent user experiences. I look forward to helping companies grow or launch their products to the next level  {"/>"} 
-       </p>
+     <h1 className="name">About Me.</h1>
+       <p className="inside-span"><b>{"<"}</b>  Hello World, I'm<span className='myName'>Nazrin Ibrahimli</span>, a front-end web developer and problem solver based out of Azerbaijan,Baku. I enjoy integrating creative designs to create appealing, easily accessible, and user-friendly websites and applications<b>{"/>"}</b>  </p>
+       {/* <p className='about-me-info'> <b>{"<"}</b> I create front-end solutions that are scalable and have excellent user experiences. I look forward to helping companies grow or launch their products to the next level  
+       </p> */}
       <button className='see-projects-button'>
-        {/* <a href="https://github.com/nazrinibrahimli" target="_blank">see projects</a> */}
         <a href={resume} download="Resume Nazrin Ibrahimli">see resume</a>
-
       </button>
      </div>
 
