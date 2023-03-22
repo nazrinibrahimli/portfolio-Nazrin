@@ -7,21 +7,27 @@ align-items: center;
 height: 80px;
 width: 100%;
 position:fixed;
-color: #28282B;
+color: #222222;
 transition: .5s ease-in;
 
 
 
 }
 .header-div-bg{
-    background-color: #28282B;
+    background-color: #222222;
+    color: #F9F5EB;
+    z-index: 3;
+}
+
+.header-div-bg:hover a{
     color: #F9F5EB;
     z-index: 3;
 
 
 }
+
 h1{
-    margin-left: 4.375rem;
+    margin-left: 3rem;
     font-family: 'Playfair Display', serif;
     font-size: 20px;
     margin-bottom: 0!important;
@@ -41,7 +47,7 @@ h1{
     display: flex;
     list-style-type: none;
     margin-bottom: 0;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
 
 }
 
@@ -51,18 +57,21 @@ h1{
 
 .link-item{
     text-decoration: none!important;
-    font-size: 1.7rem;
+    font-size: 1.25rem;
     text-transform: lowercase;
     /* margin:0 18px; */
-    padding: 0 8px; 
-    color: #28282B;
+    padding: 0 ; 
+    color: #222222;
     font-family: 'Playfair Display', serif;
+    border-bottom: 2px solid #6D9886;
+    margin: 0 8px;
 
 
 
 }
 .link-item:hover{
-    color: #28282B;
+    border-bottom: 3px solid #144272;
+    color: #222222;
     font-family: 'Playfair Display', serif;
 }
 
@@ -85,13 +94,11 @@ h1{
     }
     .nav-links{
         margin-left: auto;
-        margin-right: 0;
     }
 
     .link-item{
         padding: 0 4px; 
-        margin: 0;
-
+        margin: 2px;
     
     
     }

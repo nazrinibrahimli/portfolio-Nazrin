@@ -2,19 +2,8 @@
 
 .skills-div{
     text-align: center;
-    background-color: #ece7e1;
     margin-top: 90px;
     
-
-}
-.skills-set{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px;
-    height: 100%;
-    padding: auto;
-
 
 }
 
@@ -23,15 +12,22 @@
 .skills-header{
     font-weight: 200;
     padding-top: 50px;
-    margin-top: 75px;
     font-size: 6rem;
-    /* color: #28282B; */
-    color: #413543;
+    color: #222222;
     font-family: 'Aboreto', cursive;
     text-align: start;
-    margin-left:70px;
+    text-align: center;
+    border-bottom: 3px solid #6D9886;
+    border-radius: 2rem;
+    width: 40rem;
+    margin: 0 auto 131px;
+}   
 
-}    
+
+.icon{
+    width: 5rem;
+}
+
 
 .read-more{
     /* width: 900px; */
@@ -72,7 +68,7 @@
     margin: auto;
     width: 240px;
     height: 50px;
-    background-color: #243e7e;;
+    background-color: #0A2647;;
     border: none;
     color: #F9F5EB;
     text-decoration: none;
@@ -92,11 +88,14 @@
 
     .skills-header{
 
-        font-size: 4.375rem;
-    
-    
+        font-size:3rem;
+        width: 20rem;
+
     }    
-    
+    .icon{
+        width: 3rem;
+    }
+
     .read-more{
         width: 300px;
         
@@ -131,6 +130,12 @@
     padding: 0 8px;
 
 }
+.skills-header{
+    font-size: 3rem;
+    width: 20rem;
+}
+
+
 }
 
 

@@ -1,17 +1,24 @@
 .project {
     font-size: 6rem;
     /* color: #28282B; */
-    color: #413543;
+    color: #222222;
     font-family: 'Aboreto', cursive;
-    margin-bottom: 5rem;
-    text-align: end;
-    padding-right: 4.375rem;
+    margin:0 auto 5rem;
+    text-align: center;
+    border-bottom: 3px solid #6D9886;
+    border-radius: 2rem;
+    width: 45rem;
 
+
+}
+
+.icon{
+    width: 5rem;
 }
 
 .github-link{
     text-align: center;
-    color: #28282B;
+    color: #0A2647;
     font-size: 1.7rem;
     font-family: 'Playfair Display', serif;
     text-decoration: none;
@@ -24,12 +31,10 @@
 }
 
 .github-link{
-    text-decoration: underline;
-}
-
-
-.row{
-
+    border-bottom: 3px solid #6D9886;
+    width: 190px;
+    /* display: block; */
+    margin: 0 auto;
 }
 
 .cart{
@@ -40,19 +45,37 @@
 @media (max-width: 575.98px) { 
     .project{
         margin-top: 8px;
-        font-size: 4.375rem;
+        font-size: 3rem;
+        width: 20rem;
+
     
+    }
+
+    .icon{
+        width: 3rem;
+    }
+}
+@media (max-width: 768px) { 
+    .project{
+        margin-top: 8px;
+        font-size: 3rem;
+        width: 20rem;
+
+    
+    }
+
+    .icon{
+        width: 3rem;
     }
 }
 
 
 
 
-@media(min-width: 395px)and(max-width: 940px) {
+@media(min-width: 575.98px)and(max-width: 940px) {
 
     .project{
         text-align: start;
         font-size: 6rem;
-        margin-left: 4.375rem;
     }
      }

@@ -15,6 +15,7 @@
     margin-left: 0;
     font-size: 1.25rem;
     font-family: 'Playfair Display', serif;
+    color: #0A2647;
 
 }
 .info{
@@ -32,14 +33,13 @@
 
 
 .see-projects-button{
-    width: 11.25rem;
-    height: 60px;
-    background-color: #28282B;
+    width: 8rem;
+    height: 50px;
     border: none;
     border-radius: 2rem;
     color: #F9F5EB;
+    margin: 0 1.5rem;
 
-    
 }
 
 .see-projects-button a{
@@ -48,13 +48,34 @@
     font-size: 18px;
     font-family: 'Playfair Display', serif;
 
+}
+
+.demo{
+    background-color: #6D9886;
+}
+
+.code{
+    background-color: #0A2647;
 
 }
 
-.see-projects-button:hover{
-    background-color: #000000;
+.demo:hover{
+    background-color: #0A2647;
+    color: #F9F5EB; 
+}
+.demo:hover a, .code:hover a{
+    color: #F9F5EB; 
+
+}
+
+.code:hover{
+    background-color: #6D9886;
     color: #F9F5EB;
  
+}
+.buttons{
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 .image{
@@ -62,7 +83,11 @@ width: 24rem;
 height: 15rem;
 border-radius: 15px;
 margin-bottom: 2rem;
-box-shadow: 5px 10px 8px #888888;
+box-shadow: 7px 7px 10px #888888;
+/* border: 1px solid #0A2647;
+border-radius: 2rem;
+padding: 1rem; */
+
 
 }
 

@@ -29,10 +29,13 @@ window.addEventListener('scroll', ChangeColor)
 
   return (
     <div className={color ? 'header-div header-div-bg a-bg' : 'header-div'} >
-                    <h1>nazrin</h1>
+                    <h1>Nazrin</h1>
 
         <nav className="nav-links">
             <ul>
+            <li>
+                    <a href="https://www.linkedin.com/in/nazrinibrahimli/ " target="_blank" className={color ? 'link-item link-item-bg' : 'link-item'}>About</a>
+                </li>
                 <li>
 
                     <a href="https://github.com/nazrinibrahimli" target="_blank"className={color ? 'link-item link-item-bg' : 'link-item'}>Projects</a>
@@ -40,6 +43,7 @@ window.addEventListener('scroll', ChangeColor)
                 <li>
                     <a href="https://www.linkedin.com/in/nazrinibrahimli/ " target="_blank" className={color ? 'link-item link-item-bg' : 'link-item'}>Contact</a>
                 </li>
+
             </ul>
         </nav>
     </div>

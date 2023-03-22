@@ -4,33 +4,50 @@
 
 .about-div{
     width: 100%;
-    height: 50.25rem;
-    background-color: #ece7e1;
-    padding-top: 110px;
-    display: flex;
+    height: 49.25rem;
+    padding-top: 9rem;
 
 }
 
 
 .name{
-    margin-top: 15px;
-    margin-left: 0;
-    padding-left: 0;
+    margin: 15px auto 0;
     font-size: 6rem;
-    /* color: #28282B; */
-    color: #413543;
-    width: 30rem;
+    color: #222222;
+    padding: 1rem 0 1rem;
+    font-family: 'Aboreto', cursive;
+    text-align: center;
+    animation: flip 5s ease infinite;
+    border-radius: 2rem;
+    border-bottom: 3px solid #6D9886;
+    width: 45rem;
+}
+
+.front-developer{
+    margin: 13px auto 0;
+    font-size: 2rem;
+    color: #222222;
     border-radius: 2rem;
     padding: 1rem 0 1rem;
     font-family: 'Aboreto', cursive;
-
+    text-align: center;
 
 }
+
+.icon{
+    width: 5rem;
+}
+
+@keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
 
 span{
     font-family: 'Playfair Display', serif;
     margin-left: 10px;
-    color:#28282B;
+    color:#222222;
     font-size:  1.25rem;
 
 
@@ -38,38 +55,72 @@ span{
 .inside-span{
     font-size:  1.25rem;
     padding: 10px 0;
-    margin: 0;
+    margin: 2rem 14rem;
     font-family: 'Playfair Display', serif;
     /* color: #28282B; */
-    color: #2D2727;
-    width: 50rem;
+    color: #222222;
+    text-align: center;
 }
+
+
+
+.resume-button{
+    width: 8rem;
+    height: 50px;
+    border: none;
+    border-radius: 2rem;
+    color: #F9F5EB;
+    margin: 0 1.5rem;
+    background-color: #6D9886;
+    display: block;
+    margin: 2rem auto 0;
+
+
+}
+
+.resume-button:hover{
+    background-color: #243e7e;
+
+}
+
+
+.resume-button a{
+    color: #F9F5EB;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.resume-button:hover a{
+    color: #F9F5EB; 
+}
+
+
+
 
 .myName{
     font-weight: 800;
     color: black;
 }
 
+
+
 .about-me-info{
-    width: 65%;
     font-family: 'Playfair Display', serif;
     font-size: 1.25rem;
     padding-top: 10px;
     /* color: #28282B; */
-    color: #2D2727;
+    color: #222222;
 
 }
 
 
 
 .left{
-    margin-left: 4.375rem;
     padding-top: 60px;
 }
-.right{
-  
-    margin-left: 4.375rem;
-}
+
 
 .div-bg{
     display: flex;
@@ -78,7 +129,7 @@ span{
     position: relative;
     width: 400px;
     height: 400px;
-    background-color: #243e7e;
+    background-color: #222222;
     opacity: 0.8;
     border-radius: 15px;
     /* transform: rotate(25deg); */
@@ -95,47 +146,22 @@ span{
 
 }
 
-.see-projects-button{
-    margin-top: 30px;
-    width: 11.25rem;
-    height: 60px;
-    /* background-color: #243e7e;; */
-    /* background-color: #28282B; */
-    background-color: #2D2727;
-    border: none;
-    border-radius: 2rem;
-    
-}
-
-.see-projects-button a{
-    color: #F9F5EB;
-    text-decoration: none;
-    font-size: 18px;
-    font-family: 'Playfair Display', serif;
-
-
-}
-
-.see-projects-button:hover{
-    background-color: #000000;
-    color: #000;
- 
-}
-
-.see-projects-button:hover a{
-    color: #F9F5EB;
- 
-}
-
 
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
     .name{
         margin-top: 8px;
-        font-size: 4.375rem;
-        width: 17rem;
+        font-size: 3rem;
+        width: 20rem;
     
     }
+    .icon{
+    width: 3rem;
+}
+
+.front-developer{
+    font-size: 1.5rem;
+}
 
 .about-me-info{
     width: 18rem;
@@ -148,9 +174,6 @@ span{
     width: 10rem;
     font-size: 1.25rem;
     width: 30rem;
-
-
-
 }
 
 .div-bg{
@@ -166,10 +189,6 @@ span{
     transform: rotate(25deg);
     
 }
-.left{
-    padding: 20px 0 ;
-    width: 20rem;
-}
 
 
 .web{
@@ -180,11 +199,6 @@ span{
 
 
 }
-
-.right{
-    display: none;
-}
-
 
 
  }
@@ -199,20 +213,29 @@ span{
  }
  .right{
      margin-right: 70px;
-     margin-top: 90px;
+     /* margin-top: 90px; */
  }
 
  @media (max-width: 768px) {
 
     .about-div{
-        padding-top: 100px;
+        /* padding-top: 100px; */
     }
    
     .inside-span{
-        width: 25rem;
+        width: 29rem;
+        margin: 0 auto;
 
     }
-  
+    .name{
+        /* margin-top: 8px; */
+        font-size: 3rem;
+        width: 20rem;
+    
+    }
+    .icon{
+        width: 3rem;
+    }
 
  }
    
@@ -220,7 +243,7 @@ span{
  @media (max-width: 912px) {
 
     .about-div{
-        padding-top: 80px;
+        /* padding-top: 80px; */
     }
    
 
@@ -238,7 +261,6 @@ span{
 
     .name{
         text-align: start;
-        font-size: 6rem;
 
     }
     .inside-span{
