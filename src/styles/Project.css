@@ -31,9 +31,17 @@
 }
 
 .github-link{
-    border-bottom: 3px solid #6D9886;
+    border-bottom: 2px solid #6D9886;
     width: 190px;
     /* display: block; */
+
+}
+
+
+.github-link:hover{
+    border-color:  #0A2647;
+
+    
 }
 
 .cart{

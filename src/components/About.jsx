@@ -15,7 +15,7 @@ const About = () => {
        {/* <p className='about-me-info'> <b>{"<"}</b> I create front-end solutions that are scalable and have excellent user experiences. I look forward to helping companies grow or launch their products to the next level  
        </p> */}
       <button className='resume-button'>
-        <a href={resume} download="Resume Nazrin Ibrahimli">resume</a>
+        <a href={resume} download="Resume Nazrin Ibrahimli">Resume</a>
       </button>
 
     </div>

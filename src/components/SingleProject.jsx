@@ -22,7 +22,7 @@ const TwiceCard = (props) => {
            <a href={props.demo} target="_blank">demo</a>
           </button>       */}
           <button className='see-projects-button code'>
-           <a href={props.link} target="_blank"> see code</a>
+           <a href={props.link} target="_blank"> See code</a>
           </button>   
           </div>
 
