@@ -4,6 +4,7 @@ import { Document } from 'react-pdf'
 import resume from '../assets/Resume.pdf'
 import linkedin from '../images/linkedin.png'
 import github from '../images/github-sign.png'
+import arrow from '../images/arrow.png'
 
 // import linkedin from '../images/linkedin.jpg'
 // import github from '../images/github.png'
@@ -11,12 +12,16 @@ import github from '../images/github-sign.png'
 const Contact = () => {
   return (
     <div className='contact-div'>
-              <p className='contact-header'>Contact Me</p>
+              <p className='contact-header'>Contact Me</p>   
+              {/* <img src={contact} alt="git logo"  className='animated-icon contact'/> */}
+
       <div className='all-links-div'>
       <p className='contact-info'>I can help build you next website.  </p>
               <div className='link-icon'>
               <a className='email' href = "mailto:nazaibraqimli99@gmail.com?subject = Contact for collaboration = Message" target="_blank">
-              Click to send me an email:           <br /> nazaibraqimli99@gmail.com </a> 
+              Click to send me an email:  <img src={arrow} alt="" className='arrow' />
+
+                     <br /> nazaibraqimli99@gmail.com </a> 
           <hr />
           <p>On the Internet:</p>
           <div className='social-media-links'>
@@ -31,7 +36,6 @@ const Contact = () => {
               <div className='for-twitter-logo'></div>
               </a>
           </div>
- 
           </div>
       </div>
       <p className='credits'>Nazrin Ibrahimli, 2022. </p>

@@ -37,7 +37,7 @@ import Col from 'react-bootstrap/Col';
 const Projects = () => {
   return (
     <div className='projects-div'>
-     <p className="project">Projects <img src={icon} alt="code-icon" className='icon'/>
+     <p className="project">Projects <img src={icon} alt="code-icon" className='icon project-icon'/>
      </p>
      <Container>
      <Row>

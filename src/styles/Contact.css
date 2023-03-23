@@ -113,11 +113,32 @@ padding-bottom: 1rem;
 .email{
     text-align: center;
     font-family: 'Playfair Display', serif;
-display: block;
-font-size: 1.25rem;
-
+    display: block;
+    font-size: 1.25rem;
 
 }
+.arrow{
+    animation-name: App-logo-spin-y;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease-out;
+}
+
+
+@keyframes App-logo-spin-y {
+    0% {
+      transform: rotateX(0deg);
+    }
+
+    100%{
+      transform: rotateX(360deg);
+  
+    }
+  }
+  
+
+
+
 
 @media (max-width: 768px) { 
 

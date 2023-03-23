@@ -146,6 +146,56 @@ span{
 
 }
 
+.animated-icon{
+    position: relative;
+    animation-name: scalelogo,App-logo-spin-y;
+    animation-duration: 15s, 13s;
+    animation-iteration-count: infinite,infinite;
+    transition-timing-function: ease-in-out;
+}
+
+.react{
+    left: 18rem;
+    top: 8rem;
+}
+.git{
+   left: 2rem;
+}
+
+.api{
+    left:14rem;
+    bottom: 2rem;
+
+}
+
+@keyframes App-logo-spin-y {
+    0% {
+      transform: rotate(360deg);
+    }
+  
+    50%{
+      transform: rotate(0deg);
+  
+    }
+    100%{
+      transform: rotate(360deg);
+  
+    }
+  }
+  
+  
+  @keyframes scalelogo {
+    0%{
+      scale: 0.7;
+    }
+    50%{
+      scale: 1.4;
+    }
+    70%{
+      scale: 1.8;
+    }
+  }
+
 
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
@@ -212,6 +262,8 @@ span{
      /* margin-top: 90px; */
  }
 
+
+
  @media (max-width: 768px) {
 
     .about-div{
@@ -234,6 +286,9 @@ span{
         width: 3rem;
     }
 
+
+
+    
  }
    
 
