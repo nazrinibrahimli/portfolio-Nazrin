@@ -170,11 +170,7 @@ span{
     color:#28282B;
 }
 
-.inside-span{
-    width: 10rem;
-    font-size: 1.25rem;
-    width: 30rem;
-}
+
 
 .div-bg{
     display: flex;
@@ -223,8 +219,9 @@ span{
     }
    
     .inside-span{
-        width: 29rem;
+        width: 27rem;
         margin: 0 auto;
+        font-size: 1.25rem;
 
     }
     .name{
@@ -264,7 +261,7 @@ span{
 
     }
     .inside-span{
-        width: 10rem;
+
 
     }
      }
@@ -274,6 +271,9 @@ span{
             margin-top: 8px;
             font-size: 4.375rem;
         
+        }
+        .inside-span{
+            width: 18rem;
         }
     }
     
