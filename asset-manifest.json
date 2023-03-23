@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-Nazrin/static/css/main.26c18aba.css",
-    "main.js": "/portfolio-Nazrin/static/js/main.0a1d94c8.js",
+    "main.css": "/portfolio-Nazrin/static/css/main.32431367.css",
+    "main.js": "/portfolio-Nazrin/static/js/main.4c05e27e.js",
     "static/media/restaurant.png": "/portfolio-Nazrin/static/media/restaurant.983eaca01455eeeb1536.png",
     "static/media/dejavu.png": "/portfolio-Nazrin/static/media/dejavu.5f8ffb61ec2fb6cabcf2.png",
     "static/media/ecommerce.png": "/portfolio-Nazrin/static/media/ecommerce.5392f5c1fe7f15eff67f.png",
@@ -17,11 +17,11 @@
     "static/media/css-3.png": "/portfolio-Nazrin/static/media/css-3.7654ce00c5ac2e76e015.png",
     "static/media/icon.svg": "/portfolio-Nazrin/static/media/icon.d8ac0e3ee298377832302e01ee321d06.svg",
     "index.html": "/portfolio-Nazrin/index.html",
-    "main.26c18aba.css.map": "/portfolio-Nazrin/static/css/main.26c18aba.css.map",
-    "main.0a1d94c8.js.map": "/portfolio-Nazrin/static/js/main.0a1d94c8.js.map"
+    "main.32431367.css.map": "/portfolio-Nazrin/static/css/main.32431367.css.map",
+    "main.4c05e27e.js.map": "/portfolio-Nazrin/static/js/main.4c05e27e.js.map"
   },
   "entrypoints": [
-    "static/css/main.26c18aba.css",
-    "static/js/main.0a1d94c8.js"
+    "static/css/main.32431367.css",
+    "static/js/main.4c05e27e.js"
   ]
 }
