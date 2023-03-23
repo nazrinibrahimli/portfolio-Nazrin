@@ -80,7 +80,7 @@ padding-bottom: 1rem;
     background-image: url('../images/linkedin.png');
     background-size: contain;
     background-color: #F9F5EB;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 .for-github-logo{
     width: 3rem;
@@ -88,7 +88,7 @@ padding-bottom: 1rem;
     background-image: url('../images/github-sign.png');
     background-size: contain;
     background-color: #F9F5EB;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .for-twitter-logo{
@@ -97,7 +97,7 @@ padding-bottom: 1rem;
     background-image: url('../images/twitter-sign.png');
     background-size: contain;
     background-color: #F9F5EB;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .social-media-links{
