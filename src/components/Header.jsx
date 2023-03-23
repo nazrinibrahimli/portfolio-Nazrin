@@ -12,6 +12,12 @@ import {
 
 const Header = () => {
 
+
+
+const handleClickScroll = () => {
+    const element = document.getElementById()
+}    
+
 const [color, setColor] = useState(false)
 
 const ChangeColor = () => {

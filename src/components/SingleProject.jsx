@@ -10,12 +10,13 @@ const TwiceCard = (props) => {
         </div>
       <div className='info-div'>
           <h1 className='title'>{props.title}</h1>
-          <p className='info'>{props.info}</p>
           <div className="tools-used">
             <img src={props.icon1} alt="" className='logo'/>
             <img src={props.icon2} alt="" className='logo'/>
             <img src={props.icon3} alt="" className='logo'/>
           </div>
+          <p className='info'>{props.info}</p>
+
           <div className="buttons">
           {/* <button className='see-projects-button demo'>
            <a href={props.demo} target="_blank">demo</a>
