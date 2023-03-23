@@ -22,7 +22,7 @@
     font-size: 1.7rem;
     font-family: 'Playfair Display', serif;
     text-decoration: none;
-    margin-bottom: 2rem;
+    margin: 2rem auto;
 }
 .github-link a, .github-link a:hover {
     color: #28282B;
@@ -34,7 +34,6 @@
     border-bottom: 3px solid #6D9886;
     width: 190px;
     /* display: block; */
-    margin: 0 auto;
 }
 
 .cart{

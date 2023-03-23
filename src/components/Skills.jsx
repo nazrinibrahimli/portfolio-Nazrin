@@ -15,6 +15,8 @@ import api from "../images/api.png"
 import responsive from "../images/responsive.png"
 import git from "../images/git.png"
 import flutter from "../images/flutter.png"
+import next from "../images/nextJs.png"
+import mui from "../images/mui.png"
 
 const Skills = () => {
 
@@ -42,6 +44,9 @@ const [more, setMore] = useState(false);
         <Col>
         <Card  name="React" image={react}/>
         </Col>
+        <Col>
+        <Card  name="Next.js" image={next}/>
+        </Col>
       </Row>
 
       <Row>
@@ -50,6 +55,9 @@ const [more, setMore] = useState(false);
         </Col >
         <Col >
         <Card name="Tailwind " image={tailwind} />
+        </Col>
+        <Col >
+        <Card name="MUI  " image={mui} />
         </Col>
         <Col>
         <Card name="Rest APIs"  image={api} />

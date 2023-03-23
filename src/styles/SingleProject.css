@@ -11,6 +11,15 @@
 }
 
 
+.tools-used{
+    margin-bottom: 1rem;
+    /* display: flex; */
+    justify-content: center;
+}
+.logo{
+    margin: 0 3px;
+}
+
 .title{
     margin-left: 0;
     font-size: 1.25rem;
