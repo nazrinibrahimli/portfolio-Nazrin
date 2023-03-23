@@ -70,7 +70,7 @@ h1{
 
 }
 .link-item:hover{
-    border-bottom: 3px solid #144272;
+    border-color:  #144272;
     color: #222222;
     font-family: 'Playfair Display', serif;
 }

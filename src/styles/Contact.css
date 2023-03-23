@@ -110,6 +110,15 @@ padding-bottom: 1rem;
 
 }
 
+
+.email{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+display: block;
+font-size: 1.25rem;
+
+}
+
 @media (max-width: 768px) { 
 
     .contact-header{

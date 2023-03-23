@@ -15,9 +15,9 @@ const Contact = () => {
       <div className='all-links-div'>
       <p className='contact-info'>I can help build you next website.  </p>
               <div className='link-icon'>
-              {/* <a href = "mailto:nazaibraqimli99@gmail.com?subject = Contact for collaboration = Message" target="_blank">
-          Click to send me an email! nazaibraqimli99@gmail.com 📩</a> 
-          <hr /> */}
+              <a className='email' href = "mailto:nazaibraqimli99@gmail.com?subject = Contact for collaboration = Message" target="_blank">
+              Click to send me an email:           <br /> nazaibraqimli99@gmail.com </a> 
+          <hr />
           <p>On the Internet:</p>
           <div className='social-media-links'>
           <a href="https://www.linkedin.com/in/nazrinibrahimli/"  target="_blank" > 
