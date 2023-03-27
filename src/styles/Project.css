@@ -1,5 +1,5 @@
 .project {
-    font-size: 6rem;
+    font-size: 3rem;
     /* color: #28282B; */
     color: #222222;
     font-family: 'Aboreto', cursive;
@@ -7,19 +7,25 @@
     text-align: center;
     border-bottom: 3px solid #6D9886;
     border-radius: 2rem;
-    width: 45rem;
+    width: 29rem;
 
 
+}
+
+.projects-div{
+    padding-top: 4.2rem;
+    padding-bottom: 108px;
 }
 
 .icon{
-    width: 5rem;
-    /* animation: rotateIcon 10s infinite ease; */
-    /* animation-delay: 4s; */
+    width: 3rem;
+
 }
 
 .project-icon{
-    animation: rotateIcon 10s infinite linear;
+    width: 3rem;
+
+    /* animation: rotateIcon 10s infinite linear; */
 
 }
 @keyframes rotateIcon {
@@ -96,8 +102,5 @@
 
 @media(min-width: 575.98px)and(max-width: 940px) {
 
-    .project{
-        text-align: start;
-        font-size: 6rem;
-    }
+
      }

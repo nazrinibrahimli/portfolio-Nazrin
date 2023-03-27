@@ -25,6 +25,7 @@ import git from "../images/git.png"
 import flutterIcon from "../images/flutter.png"
 import next from "../images/nextJs.png"
 import mui from "../images/mui.png"
+import { useRef } from 'react';
 
 
 
@@ -35,9 +36,12 @@ import Col from 'react-bootstrap/Col';
 
 
 const Projects = () => {
+
+
+
   return (
-    <div className='projects-div'>
-     <p className="project">Projects <img src={icon} alt="code-icon" className='icon project-icon'/>
+    <div className='projects-div' id="projects">
+     <p className="project">Projects 
      </p>
      <Container>
      <Row>

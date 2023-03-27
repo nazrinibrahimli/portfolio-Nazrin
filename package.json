@@ -1,5 +1,5 @@
 {
-  "homepage":"http://nazrinibrahimli.github.io/portfolio-Nazrin",
+  "homepage": "http://nazrinibrahimli.github.io/portfolio-Nazrin",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -12,14 +12,14 @@
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
     "react-pdf": "^6.2.2",
-    "react-router-dom": "^6.4.4",
+    "react-router-dom": "^6.9.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d build  -r https://github.com/nazrinibrahimli/portfolio-Nazrin",
+    "deploy": "gh-pages -d build  -r https://github.com/nazrinibrahimli/portfolio-Nazrin",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

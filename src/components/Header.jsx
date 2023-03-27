@@ -2,24 +2,30 @@ import React from 'react'
 import '../styles/Header.css'
 import { useState } from 'react'
 import { NavLink } from "react-router-dom";
+import About from './About';
+import Projects from './Projects';
+import Contact from './Contact';
+import { Outlet, Link } from "react-router-dom";
+import { Component } from "react";
+
+import {
+  Route,
+  HashRouter
+} from "react-router-dom";
 import {
     BrowserRouter,
     Routes, // instead of "Switch"
-    Route,
   } from "react-router-dom";
-
+import { useRef } from 'react';
 
 
 const Header = () => {
 
 
 
-const handleClickScroll = () => {
-    const element = document.getElementById()
-}    
+
 
 const [color, setColor] = useState(false)
-
 const ChangeColor = () => {
     if(window.scrollY>=120)
     {    setColor(true)
@@ -30,30 +36,32 @@ const ChangeColor = () => {
     }
 }
 
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+
 window.addEventListener('scroll', ChangeColor)
 
-
   return (
-    <div className={color ? 'header-div header-div-bg a-bg' : 'header-div'} >
-                    <h1>Nazrin</h1>
+        <div class="topnav" id="myTopnav">
+                <li><NavLink className="" activeClassName="is-active" to="/">home</NavLink></li>
+                <li><NavLink className={color ? 'link-item link-item-bg' : 'link-item'} activeClassName="is-active" to="/about">about</NavLink></li>
+                <li><NavLink className={color ? 'link-item link-item-bg' : 'link-item'} activeClassName="is-active" to="/projects">projects</NavLink></li>
+                <li><NavLink className={color ? 'link-item link-item-bg' : 'link-item'} activeClassName="is-active" to="/skills">skills</NavLink></li>
+                <li><NavLink className={color ? 'link-item link-item-bg' : 'link-item'} activeClassName="is-active" to="/contact">contact</NavLink></li>
 
-        <nav className="nav-links">
-            <ul>
-            <li>
-                    <a href="https://www.linkedin.com/in/nazrinibrahimli/ " target="_blank" className={color ? 'link-item link-item-bg' : 'link-item'}>About</a>
-                </li>
-                <li>
 
-                    <a href="https://github.com/nazrinibrahimli" target="_blank"className={color ? 'link-item link-item-bg' : 'link-item'}>Projects</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/nazrinibrahimli/ " target="_blank" className={color ? 'link-item link-item-bg' : 'link-item'}>Contact</a>
-                </li>
-
-            </ul>
-        </nav>
-    </div>
+</div>
+  
   )
+
 }
 
 export default Header
+
+
+
+
+
+
+
+

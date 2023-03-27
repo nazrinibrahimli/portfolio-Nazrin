@@ -6,8 +6,6 @@ import linkedin from '../images/linkedin.png'
 import github from '../images/github-sign.png'
 import arrow from '../images/arrow.png'
 
-// import linkedin from '../images/linkedin.jpg'
-// import github from '../images/github.png'
 
 const Contact = () => {
   return (
@@ -38,7 +36,6 @@ const Contact = () => {
           </div>
           </div>
       </div>
-      <p className='credits'>Nazrin Ibrahimli, 2022. </p>
     </div>
   )
 }

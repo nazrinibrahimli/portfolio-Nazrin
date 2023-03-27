@@ -2,8 +2,8 @@
 
 .skills-div{
     text-align: center;
-    margin-top: 90px;
-    
+    /* margin-top: 90px; */
+    padding-top: 1rem;
 
 }
 
@@ -12,14 +12,14 @@
 .skills-header{
     font-weight: 200;
     padding-top: 50px;
-    font-size: 6rem;
+    font-size: 3rem;
     color: #222222;
     font-family: 'Aboreto', cursive;
     text-align: start;
     text-align: center;
     border-bottom: 3px solid #6D9886;
     border-radius: 2rem;
-    width: 40rem;
+    width: 29rem;
     margin: 0 auto 131px;
 }   
 

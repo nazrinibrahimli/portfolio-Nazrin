@@ -17,6 +17,7 @@ import git from "../images/git.png"
 import flutter from "../images/flutter.png"
 import next from "../images/nextJs.png"
 import mui from "../images/mui.png"
+import skills from "../images/learning.png"
 
 const Skills = () => {
 
@@ -26,7 +27,8 @@ const [more, setMore] = useState(false);
 
   return (
     <div className='skills-div' >
-        <p className='skills-header '>Skills-Set</p>
+        <p className='skills-header '>Skills-Set 
+        </p>
     <Container>
       <Row>
         <Col >

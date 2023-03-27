@@ -1,27 +1,36 @@
 import './App.css';
+import Home from './pages/Home';
 import Header from './components/Header';
 import About from './components/About';
-import Contact from './components/Contact';
+import Projetcs from './components/Projects';
 import Skills from './components/Skills';
-import Projects from './components/Projects';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import react from "./images/atom-2.png"
-import git from "./images/git.png"
-import api from "./images/api.png"
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 
 function App() {
   return (
+
     <div className="App">
-      <Header/>
-      <img src={react} alt="react logo"  className='animated-icon react'/>
-      <About/>
-      <img src={api} alt="api logo"  className='animated-icon api'/>
-      <Projects/>
-      <Skills/>
-      {/* <img src={git} alt="git logo"  className='animated-icon git'/> */}
-      <Contact/>
+       <Header/>
+        <div className="">
+        <Routes>
+            <Route path="/"element={<Home />}/>
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projetcs />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/contact" element={<Contact />} />
+        </Routes>
+        </div>
+        <Footer/>
     </div>
   );
 }

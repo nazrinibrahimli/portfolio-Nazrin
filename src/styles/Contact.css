@@ -5,11 +5,12 @@ img{
 }
 
 .contact-div{
-width: 100%;
-padding-top: 30px;
+/* width: 100%; */
+padding-top: 3rem;
 background-color: #222222;
-margin-bottom: 0;
-padding-bottom: 1rem;
+padding-bottom: 3rem;
+margin-bottom: 0!important;
+height: 40rem;
 }
 
 
@@ -20,15 +21,6 @@ padding-bottom: 1rem;
     font-size: 1.25rem;
     color: #ece7e1;
     text-align: center;
-
-}
-
-.credits{
-    font-size: 0.8rem;
-    color: #ece7e1;
-    text-align: center;
-    margin: 3rem 0 0;
-    font-family: 'Playfair Display', serif;
 
 }
 
@@ -48,7 +40,7 @@ padding-bottom: 1rem;
 .contact-header{
     margin: 1rem auto 0;
     padding: 0 0 1rem;
-    font-size: 6rem;
+    font-size: 3rem;
     color: #ece7e1;
     font-family: 'Aboreto', cursive;
     text-align: center;
@@ -125,6 +117,21 @@ padding-bottom: 1rem;
     transition-timing-function: ease-out;
 }
 
+.footer{
+    background-color: black;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credits{
+    font-size: 0.8rem;
+    color: #ece7e1;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+
+}
 
 @keyframes App-logo-spin-x {
     50% {
