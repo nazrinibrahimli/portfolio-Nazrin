@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-Nazrin/static/css/main.acbca40e.css",
-    "main.js": "/portfolio-Nazrin/static/js/main.7d65bf8a.js",
+    "main.css": "/portfolio-Nazrin/static/css/main.3da13c75.css",
+    "main.js": "/portfolio-Nazrin/static/js/main.02cd0e39.js",
     "static/media/restaurant.png": "/portfolio-Nazrin/static/media/restaurant.983eaca01455eeeb1536.png",
     "static/media/dejavu.png": "/portfolio-Nazrin/static/media/dejavu.5f8ffb61ec2fb6cabcf2.png",
     "static/media/ecommerce.png": "/portfolio-Nazrin/static/media/ecommerce.5392f5c1fe7f15eff67f.png",
@@ -11,6 +11,8 @@
     "static/media/caspiansoft-3.png": "/portfolio-Nazrin/static/media/caspiansoft-3.168d13bd0805c68206fd.png",
     "static/media/task-tracker.png": "/portfolio-Nazrin/static/media/task-tracker.5fc1bd719a700403ee83.png",
     "static/media/flutter-triple.png": "/portfolio-Nazrin/static/media/flutter-triple.791718987f185ab68ec4.png",
+    "static/media/nazrin-green.png": "/portfolio-Nazrin/static/media/nazrin-green.5ba07c32e098ee433107.png",
+    "static/media/nazrin-blue.png": "/portfolio-Nazrin/static/media/nazrin-blue.e6abfa5e5e050a07203a.png",
     "static/media/Resume.pdf": "/portfolio-Nazrin/static/media/Resume.9879f531e430495d30c8.pdf",
     "static/media/arrow.png": "/portfolio-Nazrin/static/media/arrow.c32c40ed2a1194d455ef.png",
     "static/media/atom-2.png": "/portfolio-Nazrin/static/media/atom-2.52de6422409ad1571d1f.png",
@@ -18,11 +20,11 @@
     "static/media/css-3.png": "/portfolio-Nazrin/static/media/css-3.7654ce00c5ac2e76e015.png",
     "static/media/icon.svg": "/portfolio-Nazrin/static/media/icon.d8ac0e3ee298377832302e01ee321d06.svg",
     "index.html": "/portfolio-Nazrin/index.html",
-    "main.acbca40e.css.map": "/portfolio-Nazrin/static/css/main.acbca40e.css.map",
-    "main.7d65bf8a.js.map": "/portfolio-Nazrin/static/js/main.7d65bf8a.js.map"
+    "main.3da13c75.css.map": "/portfolio-Nazrin/static/css/main.3da13c75.css.map",
+    "main.02cd0e39.js.map": "/portfolio-Nazrin/static/js/main.02cd0e39.js.map"
   },
   "entrypoints": [
-    "static/css/main.acbca40e.css",
-    "static/js/main.7d65bf8a.js"
+    "static/css/main.3da13c75.css",
+    "static/js/main.02cd0e39.js"
   ]
 }
