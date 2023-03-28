@@ -47,9 +47,9 @@ align-items: center;
     border-radius: 8PX;
 }
 
-.tool-image:hover{
+/* .tool-image:hover{
     transform: scale(1.2);
-}
+} */
 
 
 @media (max-width: 575.98px) { 

@@ -20,6 +20,7 @@
 .welcome-message{
     font-size: 6rem;
     color: #6D9886;
+    margin-top: 4rem;
     padding: 1rem 0 1rem;
     font-family: 'Aboreto', cursive;
           text-align: center;  
@@ -58,13 +59,13 @@
 }
 
 .nazrin-image{
-    width: 7rem;
+    width: 8rem;
     display: block;
     margin: 0 auto;
-    animation-name: scalelogo;
+    /* animation-name: scalelogo;
     animation-duration: 15s, 13s;
     animation-iteration-count: infinite,infinite;
-    transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out; */
     /* border-radius: 50%; */
     /* animation-name: scalelogo;
     animation-duration: 15s, 13s;

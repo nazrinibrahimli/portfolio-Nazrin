@@ -112,6 +112,7 @@ margin-top: 3rem;
 
 }
 .arrow{
+    width: 1.5rem;
     animation-name: App-logo-spin-x;
     animation-duration: 3s;
     animation-iteration-count: infinite;
