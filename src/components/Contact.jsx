@@ -5,11 +5,12 @@ import resume from '../assets/Resume.pdf'
 import linkedin from '../images/linkedin.png'
 import github from '../images/github-sign.png'
 import arrow from '../images/arrow.png'
+import {forwardRef} from 'react'
 
 
-const Contact = () => {
+const Contact = forwardRef((props,ref) => {
   return (
-    <div className='contact-div'>
+    <div ref={ref} className='contact-div'>
               <p className='contact-header'>Contact Me</p>   
               {/* <img src={contact} alt="git logo"  className='animated-icon contact'/> */}
 
@@ -38,6 +39,6 @@ const Contact = () => {
       </div>
     </div>
   )
-}
+})
 
 export default Contact

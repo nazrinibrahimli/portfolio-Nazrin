@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { NavLink } from "react-router-dom";
 import About from './About';
 import Projects from './Projects';
+import Skills from './Projects';
 import Contact from './Contact';
 import { Outlet, Link } from "react-router-dom";
 import { Component } from "react";
@@ -19,9 +20,7 @@ import {
 import { useRef } from 'react';
 
 
-const Header = () => {
-
-
+const Header = ({customRef,customRefProjects,customRefSkills, customRefContact}) => {
 
 
 
@@ -43,15 +42,23 @@ window.addEventListener('scroll', ChangeColor)
 
   return (
         <div class="topnav" id="myTopnav">
-                <li><NavLink className="" activeClassName="is-active" to="/">home</NavLink></li>
-                <li><NavLink className={color ? 'link-item link-item-bg' : 'link-item'} activeClassName="is-active" to="/about">about</NavLink></li>
-                <li><NavLink className={color ? 'link-item link-item-bg' : 'link-item'} activeClassName="is-active" to="/projects">projects</NavLink></li>
-                <li><NavLink className={color ? 'link-item link-item-bg' : 'link-item'} activeClassName="is-active" to="/skills">skills</NavLink></li>
-                <li><NavLink className={color ? 'link-item link-item-bg' : 'link-item'} activeClassName="is-active" to="/contact">contact</NavLink></li>
+          <li><a onClick={()=> customRef.current.scrollIntoView({behaviour: "smooth"})} >about</a></li>
+          <li><a onClick={()=> customRefProjects.current.scrollIntoView({behaviour: "smooth"})} >projects</a></li>
+          <li><a onClick={()=> customRefSkills.current.scrollIntoView({behaviour: "smooth"})} >skills</a></li>
+          <li><a onClick={()=> customRefContact.current.scrollIntoView({behaviour: "smooth"})} >contact</a></li>
+
+                {/* <li><Link onClick={()=> customRef.current.scrollInView({behaviour: "smooth"})} className="" activeClassName="is-active" to="/home">home</Link></li> */}
+                {/* <li><Link className="" activeClassName="is-active" to="/about">about</Link></li> */}
+                {/* <li><Link className="" activeClassName="is-active" to="/projects">projects</Link></li>
+                <li><Link className="" activeClassName="is-active" to="/skills">skills</Link></li>
+                <li><Link className="" activeClassName="is-active" to="/contact">contact</Link></li>
+ */}
 
 
-</div>
-  
+
+
+        </div>
+
   )
 
 }

@@ -61,6 +61,10 @@
     width: 7rem;
     display: block;
     margin: 0 auto;
+    animation-name: scalelogo;
+    animation-duration: 15s, 13s;
+    animation-iteration-count: infinite,infinite;
+    transition-timing-function: ease-in-out;
     /* border-radius: 50%; */
     /* animation-name: scalelogo;
     animation-duration: 15s, 13s;

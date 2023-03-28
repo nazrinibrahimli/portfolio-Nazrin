@@ -11,11 +11,12 @@ import nazrin from "../images/nazrin-blue.png"
 import nazrinG from "../images/nazrin-green.png"
 import { useRef } from 'react';
 
+import {forwardRef} from 'react'
 
-const About = () => {
+const About = forwardRef((props,ref) => {
 
   return (
-    <div className='about-div' id='about'>
+    <div ref={ref} className='about-div' id='about'>
        {/* <img src={nazrinG} alt="" className='nazrin-image' />  */}
      {/* <img src={react} alt="react logo"  className='animated-icon react'/>
      <img src={api} alt="api logo"  className='animated-icon api'/>
@@ -32,6 +33,6 @@ const About = () => {
 
     </div>
   )
-}
+})
 
 export default About

@@ -18,15 +18,16 @@ import flutter from "../images/flutter.png"
 import next from "../images/nextJs.png"
 import mui from "../images/mui.png"
 import skills from "../images/learning.png"
+import {forwardRef} from 'react'
 
-const Skills = () => {
+const Skills = forwardRef((props,ref) => {
 
 const [more, setMore] = useState(false);
 
 
 
   return (
-    <div className='skills-div' >
+    <div ref={ref} className='skills-div' >
         <p className='skills-header '>Skills-Set 
         </p>
     <Container>
@@ -76,6 +77,6 @@ const [more, setMore] = useState(false);
 
     </div>
   )
-}
+})
 
 export default Skills

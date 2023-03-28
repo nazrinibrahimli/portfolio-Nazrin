@@ -32,15 +32,16 @@ import { useRef } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import {forwardRef} from 'react'
 
 
 
-const Projects = () => {
+const Projects = forwardRef((props,ref) => {
 
 
 
   return (
-    <div className='projects-div' id="projects">
+    <div ref={ref} className='projects-div' id="projects">
      <p className="project">Projects 
      </p>
      <Container>
@@ -71,6 +72,6 @@ const Projects = () => {
 
 
   )
-}
+})
 
 export default Projects
