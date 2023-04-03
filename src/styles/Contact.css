@@ -90,12 +90,15 @@ margin-top: 3rem;
     background-size: contain;
     background-color: #F9F5EB;
     border-radius: 12px;
+        margin-left: 1rem;
 }
 
 .social-media-links{
     display: flex;
     justify-content: center;
 }
+
+
 
 .for-github-logo:hover, .for-linkedin-logo:hover, .for-twitter-logo:hover{
     background-color: #6D9886;
