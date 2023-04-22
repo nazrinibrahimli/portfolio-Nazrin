@@ -29,8 +29,6 @@ const contactRef = useRef(null)
 
     <div className="App">
       <Header customRef={aboutRef} customRefProjects={projectsRef} customRefSkills={skillsRef} customRefContact={contactRef}/>
-      <h1 className='welcome-message'>Nazrin Ibrahimli</h1>
-      <img src={nazrinG} alt="" className='nazrin-image' /> 
       <About ref={aboutRef}/>  
       <Projects ref={projectsRef}/>
       <Skills ref={skillsRef}/>

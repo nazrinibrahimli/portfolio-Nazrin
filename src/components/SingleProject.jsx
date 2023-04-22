@@ -1,13 +1,16 @@
 import React from 'react'
 import '../styles/SingleProject.css'
+import { motion as m } from "framer-motion"
 
 
 const TwiceCard = (props) => {
   return (
     <div className='cart '>
-      <div className='image-div'>
+      <m.div className='image-div'    cx={500}
+  animate={{ cx: [null, 100, 200] }}
+  transition={{ duration: 3, times: [0, 0.2, 1] }}>
         <img className='image' src={props.image} alt="" /> 
-        </div>
+        </m.div>
       <div className='info-div'>
           <h1 className='title'>{props.title}</h1>
           <div className="tools-used">

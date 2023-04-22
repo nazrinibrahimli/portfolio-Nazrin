@@ -19,6 +19,7 @@ import next from "../images/nextJs.png"
 import mui from "../images/mui.png"
 import skills from "../images/learning.png"
 import {forwardRef} from 'react'
+import {motion as m } from "framer-motion"
 
 const Skills = forwardRef((props,ref) => {
 
@@ -27,7 +28,7 @@ const [more, setMore] = useState(false);
 
 
   return (
-    <div ref={ref} className='skills-div' >
+    <m.div   initial={{opacity:0}} animate={{opacity:1}} transition={{duration: 0.7, ease: "easeOut"}} ref={ref} className='skills-div' >
         <p className='skills-header '>Skills-Set 
         </p>
     <Container>
@@ -75,7 +76,7 @@ const [more, setMore] = useState(false);
     </Container>
    
 
-    </div>
+    </m.div>
   )
 })
 

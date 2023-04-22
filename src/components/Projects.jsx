@@ -12,6 +12,7 @@ import flutter from '../images/flutter-triple.png'
 import agency from '../images/agency.png'
 import dejavu from '../images/dejavu.png'
 import icon from "../images/projects.png"
+import neventy from '../images/neventy.png'
 
 import html from '../images/html5.png'
 import css from '../images/css-3.png'
@@ -44,26 +45,19 @@ const Projects = forwardRef((props,ref) => {
     <div ref={ref} className='projects-div' id="projects">
      <p className="project">Projects 
      </p>
-     <Container>
-     <Row>
-     <Col><TwiceCard  link="https://agency-website-sage.vercel.app/" title="A'gency" image={agency} info="A'gency website is a fully responsive and written with Next.js,Tailwind, and MUI. " icon1={next} icon2={tailwind} icon3={mui}/>
-        </Col>
-        <Col><TwiceCard link="https://e-commerce-bookstore-five.vercel.app/" title="E-commerse Bookshop" image={ecommerce}  info="E-commerce website is written in React and Tailwind CSS . It is a fully responsive website."  icon1={react} icon2={tailwind} icon3/>
-        </Col>
-        </Row>
-        <Row>
-        <Col><TwiceCard link="https://dejavu-medical-clinic.vercel.app/" title="Dejavu Clinic" image={dejavu}  info="Website of Dejavu Clinic that is written in React, Next JS, Mui and Tailwind CSS . It is a fully responsive website."  icon1={react} icon2={next} icon3={tailwind}/>
-        </Col>
-        <Col><TwiceCard  link="https://github.com/nazrinibrahimli/Restaurant-website" title="Dine Out Restaurant" image={restaurant} info="Restaurant website is a fully responsive and written with Vanilla Javascript, HTML and CSS."  icon1={html} icon2={css} icon3={js}/>
-        </Col>
-        </Row>
-        <Row>
+     <Container className='cont'>
+     <TwiceCard  link="https://agency-website-sage.vercel.app/" title="Neventy" image={neventy} info="Website for the event organization-Neventy. This website is a fully responsive and written with Vanilla JS, Tailwind, and HTML. " icon1={html} icon2={tailwind} icon3={js}/>
 
-        <Col><TwiceCard link="https://github.com/nargayeva/caspiansoft" title="Caspian Soft Company's Website" image={caspiansoft}  info="Caspian Soft company's website. Written with Vanilla Javascript, SASS, and HTML. It is responsive website."  icon1={html} icon2={js} icon3={css} />
-        </Col>
-        <Col><TwiceCard link="https://github.com/nazrinibrahimli/Booking" title="Flutter Booking App" image={flutter}  info="Ticket Booking App is written with advanced Flutter concepts."  icon1={flutterIcon} icon2 icon3 />
-        </Col>
-        </Row>
+
+     <TwiceCard  link="https://agency-website-sage.vercel.app/" title="A'gency" image={agency} info="A'gency website is a fully responsive and written with Next.js,Tailwind, and MUI. " icon1={next} icon2={tailwind} icon3={mui}/>
+   
+        <TwiceCard link="https://e-commerce-bookstore-five.vercel.app/" title="E-commerse Bookshop" image={ecommerce}  info="E-commerce website is written in React and Tailwind CSS . It is a fully responsive website."  icon1={react} icon2={tailwind} icon3/>
+        <TwiceCard  link="https://github.com/nazrinibrahimli/Restaurant-website" title="Dine Out Restaurant" image={restaurant} info="Restaurant website is a fully responsive and written with Vanilla Javascript, HTML and CSS."  icon1={html} icon2={css} icon3={js}/>
+
+
+
+      {/* <TwiceCard link="https://github.com/nargayeva/caspiansoft" title="Caspian Soft Company's Website" image={caspiansoft}  info="Caspian Soft company's website. Written with Vanilla Javascript, SASS, and HTML. It is responsive website."  icon1={html} icon2={js} icon3={css} /> */}
+       <TwiceCard link="https://github.com/nazrinibrahimli/Booking" title="Flutter Booking App" image={flutter}  info="Ticket Booking App is written with advanced Flutter concepts."  icon1={flutterIcon} icon2 icon3 />
   
     </Container>
     <p className='github-link '><a href="https://github.com/nazrinibrahimli" target="_blank" className=''>See all projects</a></p>

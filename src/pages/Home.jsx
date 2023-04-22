@@ -15,22 +15,18 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-
+import {motion as m } from "framer-motion"
 
 const Home = () => {
   return (
-    <div>
-      {/* <img src={react} alt="react logo"  className='animated-icon react'/> */}
-      {/* <h1 className='welcome-message'>Nazrin Ibrahimli</h1>
-      <img src={nazrinG} alt="" className='nazrin-image' />  */}
-
+    <m.div  >
       <About/>  
       <Projects/>
       <Skills/>
       <Contact/>
 
 
-    </div>
+    </m.div>
   )
 }
 

@@ -3,13 +3,17 @@
     /* color: #28282B; */
     color: #222222;
     font-family: 'Aboreto', cursive;
-    margin:0 auto 5rem;
+    margin: 3rem auto;
     text-align: center;
-    border-bottom: 3px solid #6D9886;
-    border-radius: 2rem;
-    width: 29rem;
+    /* border-bottom: 3px solid #6D9886; */
+    /* border-radius: 2rem; */
 
 
+}
+
+.cont{
+    margin: 0;
+    padding: 0;
 }
 
 .projects-div{
@@ -40,10 +44,12 @@
 .github-link{
     text-align: center;
     color: #0A2647;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     font-family: 'Playfair Display', serif;
     text-decoration: none;
-    margin: 2rem auto;
+    margin: auto;
+    border: 0.2rem solid #0A2647;
+
 }
 .github-link a, .github-link a:hover {
     color: #28282B;
@@ -52,8 +58,8 @@
 }
 
 .github-link{
-    border-bottom: 2px solid #6D9886;
     width: 190px;
+    padding: 0.3rem;
     /* display: block; */
 
 }
@@ -66,7 +72,7 @@
 }
 
 .cart{
-    margin: 3rem auto;
+    margin: 3rem ;
 }
 
 

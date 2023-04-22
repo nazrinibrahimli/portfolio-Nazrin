@@ -6,12 +6,18 @@ img{
 
 .contact-div{
 /* width: 100%; */
-padding-top: 3rem;
+padding: 6rem 0 4rem 0;
 background-color: #222222;
-padding-bottom: 3rem;
-margin-bottom: 0!important;
-height: 35rem;
 margin-top: 3rem;
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+flex-wrap: wrap;
+}
+
+.contactHeader, .all-links-div{
+    text-align: center;
+    padding: 1rem 2rem;
 }
 
 
@@ -39,8 +45,6 @@ margin-top: 3rem;
 }
 
 .contact-header{
-    margin: 1rem auto 0;
-    padding: 0 0 1rem;
     font-size: 3rem;
     color: #ece7e1;
     font-family: 'Aboreto', cursive;
@@ -48,15 +52,13 @@ margin-top: 3rem;
 
 }
 
-.all-links-div{
-    margin-top: 5rempx;
-    padding-bottom: 50px;
-}
+
 .contact-info{
     color:#ece7e1;
     font-size: 1.25rem;
     font-family: 'Playfair Display', serif;
     text-align: center;
+    padding: 0 5rem;
 
 }
 
@@ -112,8 +114,18 @@ margin-top: 3rem;
     display: block;
     font-size: 1.25rem;
     line-height: 2.8rem;
+    /* border: 1px solid #222222;
+    background-color: #ece7e1; */
+    color: #222222;
 
 }
+
+.email>button{
+     border: 0.3rem solid #003B46;
+    background-color: #ece7e1;
+    color: #222222;
+}
+
 .arrow{
     width: 1.5rem;
     animation-name: App-logo-spin-x;
@@ -154,10 +166,10 @@ margin-top: 3rem;
 @media (max-width: 768px) { 
 
     .contact-header{
-        padding-top: 20px;
         font-size: 3rem;
-        padding-bottom: 25px;
 
+
+        
  
     
     }

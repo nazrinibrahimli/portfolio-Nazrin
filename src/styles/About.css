@@ -9,21 +9,26 @@
 
 
 
+  #about{
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  #about>div{
+      flex: 1;
+  }
 
 .about-div{
     width: 100%;
-    height: 41.95rem;
-    padding-top: 3.6rem;
-    padding-bottom: 4rem;
-
+    padding: 5rem 4rem 4rem;
 }
 
 .welcome-message{
     font-size: 6rem;
-    color: #6D9886;
+    /* color: #6D9886; */
+    color: #003B46;
     margin-top: 4rem;
-    padding: 1rem 0 1rem;
-    font-family: 'Aboreto', cursive;
+    font-family: 'Playfair Display', serif;
           text-align: center;  
           animation: flip 5s ease infinite;
 
@@ -37,7 +42,7 @@
     margin: 15px auto 0;
     font-size: 3rem;
     color: #222222;
-    font-family: 'Aboreto', cursive;
+    font-family: 'Playfair Display', serif;
     border-radius: 2rem;
     border-bottom: 3px solid #6D9886;
     width: 29rem;
@@ -60,8 +65,8 @@
     color: #222222;
     border-radius: 2rem;
     padding: 1rem 0 1rem;
-    font-family: 'Aboreto', cursive;
     text-align: center;
+    font-weight: 200;
 
 }
 
@@ -101,7 +106,7 @@ span{
 .inside-span{
     font-size:  1.25rem;
     padding: 16px 0;
-    margin: 2rem 14rem;
+    margin: 4rem;
     font-family: 'Playfair Display', serif;
     /* color: #28282B; */
     color: #222222;
@@ -113,16 +118,16 @@ span{
 .resume-button{
     width: 8rem;
     height: 50px;
-    border: none;
-    border-radius: 2rem;
-    color: #F9F5EB;
+    border: 0.2rem solid #0A2647;
+    color: #0A2647;
     margin: 0 1.5rem;
-    background-color: #6D9886;
+    background-color: #ffffff;
     display: block;
     margin: 2rem auto 0;
 
-
 }
+
+
 .for-linkedin-logo{
     margin-right: 1rem;
 }
@@ -134,7 +139,7 @@ span{
 
 
 .resume-button a{
-    color: #F9F5EB;
+    color: #0A2647;
     text-decoration: none;
     font-size: 1.25rem;
     font-family: 'Playfair Display', serif;
@@ -142,7 +147,7 @@ span{
 }
 
 .resume-button:hover a{
-    color: #F9F5EB; 
+    color: #6D9886; 
 }
 
 
@@ -269,6 +274,8 @@ span{
 
 .front-developer{
     font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+
 }
 
 .about-me-info{
@@ -276,6 +283,7 @@ span{
     font-size: 1.25rem;
     padding-top: 20px;
     color:#28282B;
+    text-align: center;
 }
 
 
@@ -332,6 +340,7 @@ span{
         width: 32rem;
         margin: 0 auto;
         font-size: 1.25rem;
+        text-align: center;
 
     }
     .name{

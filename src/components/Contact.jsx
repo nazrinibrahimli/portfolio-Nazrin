@@ -11,19 +11,13 @@ import {forwardRef} from 'react'
 const Contact = forwardRef((props,ref) => {
   return (
     <div ref={ref} className='contact-div'>
-              <p className='contact-header'>Contact Me</p>   
-              {/* <img src={contact} alt="git logo"  className='animated-icon contact'/> */}
 
-      <div className='all-links-div'>
-      <p className='contact-info'>I can help build you next website.  </p>
-              <div className='link-icon'>
-              <a className='email' href = "mailto:nazaibraqimli99@gmail.com?subject = Contact for collaboration = Message" target="_blank">
-              Click to send me an email:  <img src={arrow} alt="" className='arrow' />
-
-                     <br /> nazaibraqimli99@gmail.com </a> 
-          <hr />
-          <p>On the Internet:</p>
-          <div className='social-media-links'>
+      <div className='contactHeader'>
+      <p className='contact-header'>Contact Me</p>   
+      <p className='contact-info'>
+      If you're looking to take your company's online presence to the next level, consider working with a talented front-end developer like me to create a website that truly stands out.
+       </p>
+      <div className='social-media-links'>
           <a href="https://www.linkedin.com/in/nazrinibrahimli/"  target="_blank" > 
               {/* <img src={linkedin} alt="linkedin logo" className='logo' /> Linkedin */}
               <div className='for-linkedin-logo'></div>
@@ -35,6 +29,19 @@ const Contact = forwardRef((props,ref) => {
               <div className='for-twitter-logo'></div>
               </a>
           </div>
+      </div>
+
+
+              {/* <img src={contact} alt="git logo"  className='animated-icon contact'/> */}
+
+      <div className='all-links-div'>
+              <div className='link-icon'>
+              <a className='email' href = "mailto:nazaibraqimli99@gmail.com?subject = Contact for collaboration = Message" target="_blank">
+               <button>click to send me an email:   <img src={arrow} alt="" className='arrow' /></button> 
+
+                     <br /> nazaibraqimli99@gmail.com </a> 
+          <hr />
+
           </div>
       </div>
     </div>
