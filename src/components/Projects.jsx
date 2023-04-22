@@ -45,8 +45,7 @@ const Projects = forwardRef((props,ref) => {
     <div ref={ref} className='projects-div' id="projects">
      <p className="project">Projects 
      </p>
-     <Container className='cont'>
-     <TwiceCard  link="https://agency-website-sage.vercel.app/" title="Neventy" image={neventy} info="Website for the event organization-Neventy. This website is a fully responsive and written with Vanilla JS, Tailwind, and HTML. " icon1={html} icon2={tailwind} icon3={js}/>
+     <TwiceCard  link="https://neventy-e9iddzqru-nazrinibrahimli.vercel.app/" title="Neventy" image={neventy} info="Website for the event organization-Neventy. This website is a fully responsive and written with Vanilla JS, Tailwind, and HTML. " icon1={html} icon2={tailwind} icon3={js}/>
 
 
      <TwiceCard  link="https://agency-website-sage.vercel.app/" title="A'gency" image={agency} info="A'gency website is a fully responsive and written with Next.js,Tailwind, and MUI. " icon1={next} icon2={tailwind} icon3={mui}/>
@@ -59,7 +58,6 @@ const Projects = forwardRef((props,ref) => {
       {/* <TwiceCard link="https://github.com/nargayeva/caspiansoft" title="Caspian Soft Company's Website" image={caspiansoft}  info="Caspian Soft company's website. Written with Vanilla Javascript, SASS, and HTML. It is responsive website."  icon1={html} icon2={js} icon3={css} /> */}
        <TwiceCard link="https://github.com/nazrinibrahimli/Booking" title="Flutter Booking App" image={flutter}  info="Ticket Booking App is written with advanced Flutter concepts."  icon1={flutterIcon} icon2 icon3 />
   
-    </Container>
     <p className='github-link '><a href="https://github.com/nazrinibrahimli" target="_blank" className=''>See all projects</a></p>
  
       </div>
