@@ -45,7 +45,7 @@ const Projects = forwardRef((props,ref) => {
     <div ref={ref} className='projects-div' id="projects">
      <p className="project">Projects 
      </p>
-     <TwiceCard  link="https://neventy-e9iddzqru-nazrinibrahimli.vercel.app/" title="Neventy" image={neventy} info="Website for the event organization-Neventy. This website is a fully responsive and written with Vanilla JS, Tailwind, and HTML. " icon1={html} icon2={tailwind} icon3={js}/>
+     <TwiceCard  link="https://event-nazrinibrahimli.vercel.app/" title="Neventy" image={neventy} info="Website for the event organization-Neventy. This website is a fully responsive and written with Vanilla JS, Tailwind, and HTML. " icon1={html} icon2={tailwind} icon3={js}/>
 
 
      <TwiceCard  link="https://agency-website-sage.vercel.app/" title="A'gency" image={agency} info="A'gency website is a fully responsive and written with Next.js,Tailwind, and MUI. " icon1={next} icon2={tailwind} icon3={mui}/>
