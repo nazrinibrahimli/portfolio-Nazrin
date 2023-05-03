@@ -12,6 +12,7 @@
   #about{
       display: flex;
       flex-wrap: wrap;
+      background-color: #f1f1eb;
   }
 
   #about>div{
@@ -26,7 +27,7 @@
 .welcome-message{
     font-size: 6rem;
     /* color: #6D9886; */
-    color: #003B46;
+    color: #28282B;
     margin-top: 4rem;
     font-family: 'Playfair Display', serif;
           text-align: center;  
@@ -35,7 +36,13 @@
 
 }
 
+.social-media-links-all{
+    background-color: #f1f1eb;
+    display: flex;
+    justify-content: center;
 
+    
+}
 
 .name{
     /* animation: coming 5s ease-in; */
@@ -333,7 +340,7 @@ span{
  @media (max-width: 789px) {
 
     .about-div{
-        /* padding-top: 100px; */
+        padding: 5rem 2rem ;
     }
    
     .inside-span{
@@ -382,7 +389,7 @@ span{
         .inside-span{
             width: 32rem;
             margin: 0 auto;
-            font-size: 1.25rem;
+            font-size: 1rem;
     
         }
 

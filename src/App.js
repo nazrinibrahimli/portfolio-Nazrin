@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import nazrinG from "./images/nazrin-green.png"
+import Experience from './components/Experience';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Outlet, Link } from "react-router-dom";
@@ -31,8 +32,10 @@ const contactRef = useRef(null)
       <Header customRef={aboutRef} customRefProjects={projectsRef} customRefSkills={skillsRef} customRefContact={contactRef}/>
       <About ref={aboutRef}/>  
       <Projects ref={projectsRef}/>
+      <Experience ref={contactRef}/> 
       <Skills ref={skillsRef}/>
       <Contact ref={contactRef}/> 
+
        {/* <Routes>    
             <Route exact path="/" element={<Home />} />
             <Route path="about" element={<About />} />

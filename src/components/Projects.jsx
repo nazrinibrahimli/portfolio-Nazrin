@@ -9,7 +9,7 @@ import restaurant2 from '../images/restaurant-2.png'
 import tasktracker from '../images/task-tracker.png'
 import caspiansoft from '../images/caspiansoft-3.png'
 import flutter from '../images/flutter-triple.png'
-import agency from '../images/agency.png'
+import agency from '../images/aaaagency.png'
 import dejavu from '../images/dejavu.png'
 import icon from "../images/projects.png"
 import neventy from '../images/neventy.png'

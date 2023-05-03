@@ -31,14 +31,16 @@ const About = forwardRef((props,ref) => {
 
 
 
-      <div className="social-media-links">
+      <div className="social-media-links-all">
                <a href="https://www.linkedin.com/in/nazrinibrahimli/"  target="_blank" > 
               <div className='for-linkedin-logo'></div>
               </a>
               <a href="https://github.com/nazrinibrahimli" target="_blank"> 
               <div className='for-github-logo'></div>
               </a>
-              </div> 
+        </div> 
+
+
        </div>
 
 

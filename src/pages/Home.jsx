@@ -3,6 +3,8 @@ import Header from '../components/Header';
 import About from '../components/About';
 import Contact from '../components/Contact';
 import Skills from '../components/Skills';
+import Experience from '../components/Experience';
+
 import Projects from '../components/Projects';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import react from "../images/atom-2.png"
@@ -22,6 +24,7 @@ const Home = () => {
     <m.div  >
       <About/>  
       <Projects/>
+      <Experience/>
       <Skills/>
       <Contact/>
 

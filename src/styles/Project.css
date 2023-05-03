@@ -7,6 +7,8 @@
     text-align: center;
     /* border-bottom: 3px solid #6D9886; */
     /* border-radius: 2rem; */
+    background-color: #f1f1eb;
+
 
 
 }
@@ -71,9 +73,6 @@
     
 }
 
-.cart{
-    margin: 3rem ;
-}
 
 
 @media (max-width: 575.98px) { 
@@ -110,3 +109,35 @@
 
 
      }
+
+
+
+details>summary{
+    list-style: none;
+    padding: 1rem 3rem;
+    color: #4b4b4f;
+    font-size: 1.6rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 1.2rem;
+    border-color: #222222;
+    border-bottom: 0.1rem solid #222222;
+}
+
+details{
+    margin-bottom: 2.3rem;
+}
+
+.experiences-div{
+    margin-bottom: 4rem;
+}
+
+.summary-paragraph{
+    margin: 1rem 0;
+    color: #4b4b4f;
+    padding: 0 3rem;
+
+    font-family: 'Playfair Display', serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 1rem;
+    text-align: start;
+}     

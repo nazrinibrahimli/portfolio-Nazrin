@@ -40,7 +40,6 @@ const Contact = forwardRef((props,ref) => {
                <button>click to send me an email:   <img src={arrow} alt="" className='arrow' /></button> 
 
                      <br /> nazaibraqimli99@gmail.com </a> 
-          <hr />
 
           </div>
       </div>
