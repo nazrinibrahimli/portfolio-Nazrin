@@ -51,7 +51,7 @@ const Projects = forwardRef((props,ref) => {
      <TwiceCard  link="https://agency-website-sage.vercel.app/" title="A'gency" image={agency} info="A'gency website is a fully responsive and written with Next.js,Tailwind, and MUI. " icon1={next} icon2={tailwind} icon3={mui}/>
    
         <TwiceCard link="https://e-commerce-bookstore-five.vercel.app/" title="E-commerse Bookshop" image={ecommerce}  info="E-commerce website is written in React and Tailwind CSS . It is a fully responsive website."  icon1={react} icon2={tailwind} icon3/>
-        <TwiceCard  link="https://agency-website-sage.vercel.app/" title="Dejavu Clinic" image={dejavu} info="A website for Dejavu Clinic which is a fully responsive and written with Next.js,Tailwind, and MUI. (In progress) " icon1={next} icon2={tailwind} icon3={mui}/>
+        <TwiceCard  link="https://dejavu-medical-clinic.vercel.app/" title="Dejavu Clinic" image={dejavu} info="A website for Dejavu Clinic which is a fully responsive and written with Next.js,Tailwind, and MUI. (In progress) " icon1={next} icon2={tailwind} icon3={mui}/>
 
         <TwiceCard  link="https://github.com/nazrinibrahimli/Restaurant-website" title="Dine Out Restaurant" image={restaurant} info="Restaurant website is a fully responsive and written with Vanilla Javascript, HTML and CSS."  icon1={html} icon2={css} icon3={js}/>
 
