@@ -45,7 +45,7 @@ const About = forwardRef((props,ref) => {
 
 
        <div className=''>
-       <p className="inside-span"> Hello World, I'm<span className='myName'>Nazrin</span>, a front-end web developer, problem solver and artist based out of Azerbaijan,Baku. I enjoy integrating creative designs to create appealing, easily accessible, and user-friendly websites and applications. Whether it's a simple landing page or a complex e-commerce platform, I will apply my skills to create a website that is both visually stunning and highly functional.  </p>
+       <p className="inside-span"> Hello World, I'm<span className='myName'>Nazrin</span>, a front-end web developer, problem solver and artist based out of Azerbaijan,Baku. I enjoy integrating creative designs to create appealing, easily accessible, and user-friendly websites and applications. Whether it's a simple landing page or a complex e-commerce platform, I will apply my skills to create a website that is both <i> <b>visually stunning</b> </i> and <b><i>highly functional</i></b>.  </p>
        <button className='resume-button'>
         <a href={resume} download="Resume Nazrin Ibrahimli">Resume</a>
       </button>

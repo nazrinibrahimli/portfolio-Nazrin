@@ -48,10 +48,7 @@ const Experience = () => {
        <summary>
          BS in Information Technologies / ADA University 
        </summary>
-       <p className='summary-paragraph'>
-       - Applied advanced Javascript terms into real projects. <br />
-       - Gathered requirements based on technical requirement.
-       </p>
+
      </details>
 
 
