@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-Nazrin/static/css/main.9c037a6e.css",
-    "main.js": "/portfolio-Nazrin/static/js/main.81a0810b.js",
+    "main.css": "/portfolio-Nazrin/static/css/main.d56df33b.css",
+    "main.js": "/portfolio-Nazrin/static/js/main.379e8d84.js",
     "static/media/restaurant.png": "/portfolio-Nazrin/static/media/restaurant.983eaca01455eeeb1536.png",
     "static/media/aaaagency.png": "/portfolio-Nazrin/static/media/aaaagency.91e6e833214f49dd2709.png",
     "static/media/neventy.png": "/portfolio-Nazrin/static/media/neventy.08a26486d305c9edcb5d.png",
@@ -21,11 +21,11 @@
     "static/media/css-3.png": "/portfolio-Nazrin/static/media/css-3.7654ce00c5ac2e76e015.png",
     "static/media/icon.svg": "/portfolio-Nazrin/static/media/icon.d8ac0e3ee298377832302e01ee321d06.svg",
     "index.html": "/portfolio-Nazrin/index.html",
-    "main.9c037a6e.css.map": "/portfolio-Nazrin/static/css/main.9c037a6e.css.map",
-    "main.81a0810b.js.map": "/portfolio-Nazrin/static/js/main.81a0810b.js.map"
+    "main.d56df33b.css.map": "/portfolio-Nazrin/static/css/main.d56df33b.css.map",
+    "main.379e8d84.js.map": "/portfolio-Nazrin/static/js/main.379e8d84.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c037a6e.css",
-    "static/js/main.81a0810b.js"
+    "static/css/main.d56df33b.css",
+    "static/js/main.379e8d84.js"
   ]
 }
