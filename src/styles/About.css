@@ -12,7 +12,8 @@
   #about{
       display: flex;
       flex-wrap: wrap;
-      background-color: #f1f1eb;
+      /* background-color: #f1f1eb; */
+      background-color: #263A29;
   }
 
   #about>div{
@@ -24,20 +25,30 @@
     padding: 5rem 4rem 4rem;
 }
 
+.about-div>div{
+          background-color: #263A29;
+
+}
 .welcome-message{
     font-size: 6rem;
     /* color: #6D9886; */
-    color: #28282B;
+    color: #f1f1eb;
     margin-top: 4rem;
     font-family: 'Playfair Display', serif;
           text-align: center;  
           animation: flip 5s ease infinite;
+          background-color: #263A29;
 
 
 }
 
+.front-developer .code-icon{
+    background-color: #263A29;
+    
+}
+
 .social-media-links-all{
-    background-color: #f1f1eb;
+    background-color: #263A29;
     display: flex;
     justify-content: center;
 
@@ -54,6 +65,7 @@
     border-bottom: 3px solid #6D9886;
     width: 29rem;
     text-align: center;
+    background-color: #263A29;
 
 }
 
@@ -69,16 +81,19 @@
 .front-developer{
     margin: 13px auto 0;
     font-size: 2rem;
-    color: #222222;
+    color: #f1f1eb;
     border-radius: 2rem;
     padding: 1rem 0 1rem;
     text-align: center;
     font-weight: 200;
+    background-color: #263A29;
+
 
 }
 
 .icon{
     width: 5rem;
+    background-color: #263A29;
 }
 
 .nazrin-image{
@@ -105,8 +120,9 @@
 span{
     font-family: 'Playfair Display', serif;
     margin-left: 10px;
-    color:#222222;
+    color:#f1f1eb;
     font-size:  1.25rem;
+    background-color: #263A29;
 
 
 }
@@ -116,8 +132,9 @@ span{
     margin: 4rem;
     font-family: 'Playfair Display', serif;
     /* color: #28282B; */
-    color: #222222;
+    color: #f1f1eb;
     text-align: center;
+    background-color: #263A29;
 }
 
 
@@ -162,10 +179,13 @@ span{
 
 .myName{
     font-weight: 800;
-    color: black;
+    color: #f1f1eb;
 }
 
+.inside-span b{
+    background-color: #263A29;
 
+}
 
 .about-me-info{
     font-family: 'Playfair Display', serif;
@@ -282,6 +302,7 @@ span{
 .front-developer{
     font-size: 1.5rem;
     font-family: 'Playfair Display', serif;
+    background-color: #263A29;
 
 }
 
