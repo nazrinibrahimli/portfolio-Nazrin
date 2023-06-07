@@ -10,8 +10,6 @@
 
 
   #about{
-      display: flex;
-      flex-wrap: wrap;
       /* background-color: #f1f1eb; */
       background-color: #263A29;
   }
@@ -129,7 +127,7 @@ span{
 .inside-span{
     font-size:  1.25rem;
     padding: 16px 0;
-    margin: 4rem;
+    margin: 4rem 8rem;
     font-family: 'Playfair Display', serif;
     /* color: #28282B; */
     color: #f1f1eb;

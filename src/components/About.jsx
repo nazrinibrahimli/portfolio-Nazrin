@@ -27,7 +27,7 @@ const About = forwardRef((props,ref) => {
        <div>
        <h1 className='welcome-message'>Nazrin Ibrahimli</h1>
       {/* <img src={nazrinG} alt="" className='nazrin-image' />  */}
-       <p className='front-developer'>Front-end web developer </p>
+       <p className='front-developer'>Data Analyst / Flutter Developer </p>
 
 
 
