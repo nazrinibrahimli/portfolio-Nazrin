@@ -41,23 +41,23 @@ const ChangeColor = () => {
 window.addEventListener('scroll', ChangeColor)
 
   return (
-        <div class="topnav" id="myTopnav">
-          <li><a onClick={()=> customRef.current.scrollIntoView({behaviour: "smooth"})} >about</a></li>
-          <li><a onClick={()=> customRefProjects.current.scrollIntoView({behaviour: "smooth"})} >projects</a></li>
-          <li><a onClick={()=> customRefSkills.current.scrollIntoView({behaviour: "smooth"})} >skills</a></li>
-          <li><a onClick={()=> customRefContact.current.scrollIntoView({behaviour: "smooth"})} >contact</a></li>
+    <div id='header-to-all'>
 
-                {/* <li><Link onClick={()=> customRef.current.scrollInView({behaviour: "smooth"})} className="" activeClassName="is-active" to="/home">home</Link></li> */}
-                {/* <li><Link className="" activeClassName="is-active" to="/about">about</Link></li> */}
-                {/* <li><Link className="" activeClassName="is-active" to="/projects">projects</Link></li>
-                <li><Link className="" activeClassName="is-active" to="/skills">skills</Link></li>
-                <li><Link className="" activeClassName="is-active" to="/contact">contact</Link></li>
- */}
+    <p id='header-name'>N.</p>
+    <p id='header-info'>Available for <b>remote/relocation</b> opportunities</p>
+
+        <div class="topnav">
+          <li><a onClick={()=> customRef.current.scrollIntoView({behaviour: "smooth"})} >About me</a></li>
+          <li><a onClick={()=> customRefProjects.current.scrollIntoView({behaviour: "smooth"})} >Projects</a></li>
+          <li><a onClick={()=> customRefSkills.current.scrollIntoView({behaviour: "smooth"})} >Skills</a></li>
+          <li><a onClick={()=> customRefContact.current.scrollIntoView({behaviour: "smooth"})} >Contact</a></li>
 
 
 
 
         </div>
+        </div>
+
 
   )
 

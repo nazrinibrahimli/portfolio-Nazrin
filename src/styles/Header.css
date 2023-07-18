@@ -2,15 +2,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+#header-to-all{
+  display: flex;
+  justify-content: space-between;
+  height: 96px;
+padding: 10px 60px;
+
+align-items: center;
+
+}
+
+#header-name{
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  }
+
+
+#header-info{
+  color: var(--black-60, #2D2D2C);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px; /* 150% */
+  text-transform: uppercase;
+
+}
+
 li{
     list-style: none;
-    color: #f2f2f2;
-    background-color: #263A29;
-
-    
-    
-
-
+    color: #2D2D2C;
 }
 a{
   color: #f2f2f2;
@@ -20,17 +45,11 @@ a{
 
 /* Add a black background color to the top navigation */
 .topnav {
-  width: 100%;
-  margin-bottom: 3rem;
-  height: 4rem;
-    display: flex;
-    position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
     top: 0;
-    justify-content: center;
-    align-items: center;
-    background-color: #263A29;
-    /* background-color: #003B46; */
-    overflow: hidden;
+    background-color: #f1f1eb;
     text-align: center;
     z-index: 50;
   }
@@ -39,25 +58,29 @@ a{
   
   /* Style the links inside the navigation bar */
   .topnav a {
+    color: var(--black-60, #2D2D2C);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 150% */
     float: left;
     display: block;
-    color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-    font-family: 'Aboreto', cursive;
-    ;
+    padding-right: 25px;
+    margin-bottom: 16px;
+    
   }
   
   /* Change the color of links on hover */
-  .topnav a:hover {
+  /* .topnav a:hover {
     color: #6D9886;
     transform: scale(1.2);
-    background-color: #BFACE2;
+    background-color: #263A29;
 
   }
-  
+   */
 
 
   /* Add an active class to highlight the current page */

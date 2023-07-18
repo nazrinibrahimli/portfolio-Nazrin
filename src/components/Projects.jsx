@@ -43,20 +43,20 @@ const Projects = forwardRef((props,ref) => {
 
   return (
     <div ref={ref} className='projects-div' id="projects">
-     <p className="project">Recent Projects 
+     <p className="project">Selected Projects 
      </p>
-     <TwiceCard  link="https://event-nazrinibrahimli.vercel.app/" title="Neventy" image={neventy} info="Website for the event organization-Neventy. This website is a fully responsive and written with Vanilla JS, Tailwind, and HTML. " icon1={html} icon2={tailwind} icon3={js}/>
+     <TwiceCard  link="https://event-nazrinibrahimli.vercel.app/" id="01. " title="Neventy" tools="    Vanilla JS, Tailwind, HTML" year="2023" info_first="Organise events with one click" image={neventy} info="Website for the event organization-Neventy. This website is a fully responsive and written with Vanilla JS, Tailwind, and HTML. " icon1={html} icon2={tailwind} icon3={js}/>
 
 
-     <TwiceCard  link="https://agency-website-sage.vercel.app/" title="A'gency" image={agency} info="A'gency website is a fully responsive and written with Next.js,Tailwind, and MUI. " icon1={next} icon2={tailwind} icon3={mui}/>
+     <TwiceCard  link="https://agency-website-sage.vercel.app/" id="02. " title="A'gency" info_first="Organise events with one click"  image={agency} info="A'gency website is a fully responsive and written with Next.js,Tailwind, and MUI. " icon1={next} icon2={tailwind} icon3={mui}/>
    
-        <TwiceCard link="https://e-commerce-bookstore-five.vercel.app/" title="E-commerse Bookshop" image={ecommerce}  info="E-commerce website is written in React and Tailwind CSS . It is a fully responsive website."  icon1={react} icon2={tailwind} icon3/>
+        <TwiceCard link="https://e-commerce-bookstore-five.vercel.app/" id="03. " title="E-commerse Bookshop" info_first="Organise events with one click"  image={ecommerce}  info="E-commerce website is written in React and Tailwind CSS . It is a fully responsive website."  icon1={react} icon2={tailwind} icon3/>
 
 
 
 
       {/* <TwiceCard link="https://github.com/nargayeva/caspiansoft" title="Caspian Soft Company's Website" image={caspiansoft}  info="Caspian Soft company's website. Written with Vanilla Javascript, SASS, and HTML. It is responsive website."  icon1={html} icon2={js} icon3={css} /> */}
-       <TwiceCard link="https://github.com/nazrinibrahimli/Booking" title="Flutter Booking App" image={flutter}  info="Ticket Booking App is written with advanced Flutter concepts."  icon1={flutterIcon} icon2 icon3 />
+       <TwiceCard link="https://github.com/nazrinibrahimli/Booking"  id="04. " title="Flutter Booking App" info_first="Organise events with one click"  image={flutter}  info="Ticket Booking App is written with advanced Flutter concepts."  icon1={flutterIcon} icon2 icon3 />
   
     <p className='github-link '><a href="https://github.com/nazrinibrahimli" target="_blank" className=''>See all projects</a></p>
  

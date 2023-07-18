@@ -3,72 +3,60 @@
 img{
     width: 40px;
 }
+#nazrin-img{
+    border-radius: 50%;
+    width: 93px;
+height: 93px;
+
+}
+
+#info-button-div{
+display: flex;
+}
 
 .contact-div{
-/* width: 100%; */
 padding: 6rem 0 4rem 0;
-background-color: #263A29;
 margin-top: 3rem;
+margin-left: 60px;
 display: flex;
 justify-content: space-around;
 align-items: flex-start;
 flex-wrap: wrap;
 }
 
-.contactHeader, .all-links-div{
-    text-align: center;
-    padding: 1rem 2rem;
-    background-color: #263A29;
+.contactHeader{
+    display: flex;
+}
+
+#contact-button{
+    width: 163px;
+    height: 48px;
+    background-color: #2D2D2C;
+    font-family: Inter;
+    color: #ffff;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
+border-radius: 100px;
+border: none;
 
 }
 
 
-
-.link-icon a, .link-icon p{
-    text-decoration: none;
-    padding-right: 0.4rem;
-    font-size: 1.25rem;
-    color: #ece7e1;
-    text-align: center;
-
-
-}
-
-.link-icon p{
-    font-family: 'Aboreto', cursive;
-    background-color: #263A29;
-
-}
-
-.link-icon a{
-    /* text-decoration: underline; */
-    text-align: center;
-    background-color: #263A29;
-
-}
-
-.link-icon a:hover{
-    color: #ece7e1;
-}
-
-.contact-header{
-    font-size: 3rem;
-    color: #ece7e1;
-    font-family: 'Aboreto', cursive;
-    text-align: center;
-    background-color: #263A29;
-
-
-}
 
 
 .contact-info{
-    color:#ece7e1;
-    font-size: 1.25rem;
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    padding: 0 5rem;
-    background-color: #263A29;
+    font-family: Inter;
+    font-size: 104px;
+    font-weight: 400;
+    line-height: 120px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    width: 1161px;
+    
+    
 
 
 }
@@ -81,17 +69,16 @@ flex-wrap: wrap;
 
 
 .for-linkedin-logo{
-    width: 3rem;
-    height: 3rem;
+    width: 24px;
+    height: 24px;
     background-image: url('../images/linkedin.png');
     background-size: contain;
     background-color: #F9F5EB;
-    border-radius: 12px;
     
 }
 .for-github-logo{
-    width: 3rem;
-    height: 3rem;
+    width: 24px;
+    height: 24px;
     background-image: url('../images/github-sign.png');
     background-size: contain;
     background-color: #F9F5EB;
@@ -110,11 +97,22 @@ flex-wrap: wrap;
 
 .social-media-links{
     display: flex;
-    justify-content: center;
-    background-color: #263A29;
+
+
 
 }
 
+.social-media-links a{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2D2D2C;
+    text-decoration: none;
+    margin-right: 25px;
+}
 
 
 .for-github-logo:hover, .for-linkedin-logo:hover, .for-twitter-logo:hover{
@@ -133,55 +131,41 @@ flex-wrap: wrap;
     /* border: 1px solid #222222;
     background-color: #ece7e1; */
     color: #222222;
-    background-color: #146C94;
 
 
 }
 
-.email>button{
-     border: 0.2rem solid #003B46;
-    background-color: #ece7e1;
-    color: #222222;
-    border-radius: 50px;
-    padding: 0.6rem;
-    
-}
 
-.arrow{
-    width: 1.5rem;
-    animation-name: App-logo-spin-x;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    transition-timing-function: ease-out;
-    
-}
+
 
 .footer{
-    background-color: black;
+    background-color: #f1f1eb;
     height: 4rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
+    margin-left: 63px;
 }
 
 .credits{
     font-size: 0.8rem;
     padding: 0;
     margin: 0;
-    color: #F9F5EB;
+    color: #2D2D2C;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: -0.03em;
     text-align: center;
-    font-family: 'Playfair Display', serif;
-    background-color: black;
+    
+    background-color: #f1f1eb;
 
 
 }
 
 
-.link-icon{
-    background-color: #146C94;
-    border: 0;
-
-}
 @keyframes App-logo-spin-x {
     50% {
       transform: translate(0,10px);
@@ -207,6 +191,7 @@ flex-wrap: wrap;
     
 .all-links-div{
     display: inline;
+    margin-top: auto;
 }
 
 .link-icon{

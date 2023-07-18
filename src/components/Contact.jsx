@@ -6,6 +6,7 @@ import linkedin from '../images/linkedin.png'
 import github from '../images/github-sign.png'
 import arrow from '../images/arrow.png'
 import {forwardRef} from 'react'
+import nazrinG from "../images/nazrin-face.png"
 
 
 const Contact = forwardRef((props,ref) => {
@@ -13,36 +14,25 @@ const Contact = forwardRef((props,ref) => {
     <div ref={ref} className='contact-div'>
 
       <div className='contactHeader'>
-      <p className='contact-header'>Contact Me</p>   
-      <p className='contact-info'>
-      If you're looking to take your company's online presence to the next level, consider working with a talented front-end developer like me to create a website that truly stands out.
-       </p>
-      <div className='social-media-links'>
-          <a href="https://www.linkedin.com/in/nazrinibrahimli/"  target="_blank" > 
-              {/* <img src={linkedin} alt="linkedin logo" className='logo' /> Linkedin */}
-              <div className='for-linkedin-logo'></div>
-              </a>
-              <a href="https://github.com/nazrinibrahimli" target="_blank"> 
-              <div className='for-github-logo'></div>
-              </a>
-              <a href="https://twitter.com/IbrahimliNazrin" target="_blank"> 
-              <div className='for-twitter-logo'></div>
-              </a>
-          </div>
+
+      <div id='info-button-div'>
+      <p className='contact-info'>  <img src={nazrinG} alt="" id='nazrin-img' /> 
+
+      Do you have a project idea? I'm always on the lookout for interesting collaborations. </p>
+      </div>
+      <div className='all-links-div'>
+              <a className='email' href = "mailto:nibrahimli4676@ada.edu.az?subject = Contact for collaboration = Message" target="_blank">
+               <button id='contact-button'>Drop me a line  ↗︎</button> </a> 
+
+      </div>
+
+
       </div>
 
 
               {/* <img src={contact} alt="git logo"  className='animated-icon contact'/> */}
 
-      <div className='all-links-div'>
-              <div className='link-icon'>
-              <a className='email' href = "mailto:nazaibraqimli99@gmail.com?subject = Contact for collaboration = Message" target="_blank">
-               <button>click to send me an email:   <img src={arrow} alt="" className='arrow' /></button> 
 
-                     <br /> nazaibraqimli99@gmail.com </a> 
-
-          </div>
-      </div>
     </div>
   )
 })

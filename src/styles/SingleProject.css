@@ -1,19 +1,20 @@
 .cart{
-    padding:  3rem;
     margin-bottom: 3rem;    
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 
 
-.image-div{
-    flex: 2;
+/* .image-div{
+    flex:2
 }
 
+*/
 .info-div{
     flex: 1;
-}
+} 
 
 .image:hover{
     transform: scale(1.1);
@@ -36,22 +37,33 @@
 
 
 .title{
-    margin-left: 0;
-    font-size: 1.6rem;
-    font-family: 'Playfair Display', serif;
-    /* color: #0A2647; */
-    color: #003B46;
-    font-weight: 800;
-    text-align: start;
+    color: var(--black-60, #2D2D2C);
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70.4px; /* 110% */
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
 
 }
+.info-first{
+    color: var(--black-60, #2D2D2C);
+font-family: Inter;
+font-size: 64px;
+font-style: italic;
+font-weight: 300;
+line-height: 70.4px;
+letter-spacing: -1.92px;
+text-transform: uppercase;
+}
 .info{
-    margin: 2rem 0;
-    color: #4b4b4f;
-    font-family: 'Playfair Display', serif;
-    /* font-family: 'Poppins', sans-serif; */
-    font-size: 1rem;
-    text-align: start;
+    color: var(--black-50, #575756);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 150% */
 
 
 
@@ -99,8 +111,8 @@
 
 
 .image{
-width: 80%;
-box-shadow: 1px 1px 13px #888888;
+    width: 608px;
+    height: 590px;
 
 
 

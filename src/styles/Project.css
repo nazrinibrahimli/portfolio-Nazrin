@@ -1,16 +1,16 @@
 .project {
-    font-size: 3rem;
-    /* color: #28282B; */
-    color: #222222;
-    font-family: 'Aboreto', cursive;
-    margin: 3rem auto;
-    text-align: center;
-    /* border-bottom: 3px solid #6D9886; */
-    /* border-radius: 2rem; */
-    background-color: #f1f1eb;
+    color: var(--black-60, #2D2D2C);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
 
-
-
+}
+.experiences-div{
+    padding: 0 63px;
 }
 
 .cont{
@@ -21,6 +21,7 @@
 .projects-div{
     padding-top: 0.5rem;
     padding-bottom: 108px;
+    padding-left: 63px;
 }
 
 .icon{
@@ -112,7 +113,7 @@
 
 
 
-details>summary{
+/* details>summary{
     list-style: none;
     padding: 1rem 3rem;
     color: #4b4b4f;
@@ -121,7 +122,7 @@ details>summary{
     margin-top: 1.2rem;
     border-color: #222222;
     border-bottom: 0.1rem solid #222222;
-}
+} */
 
 details{
     margin-bottom: 2.3rem;
@@ -129,6 +130,20 @@ details{
 
 .experiences-div{
     margin-bottom: 4rem;
+}
+
+summary{
+    padding-bottom: 32px;
+    list-style: none;
+    border-bottom: 0.5px solid var(--beige-60, #B4B2B1);
+    color: var(--black-60, #2D2D2C);
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 56px; /* 116.667% */
+letter-spacing: -1.44px;
+text-transform: uppercase;
 }
 
 .summary-paragraph{
@@ -141,3 +156,14 @@ details{
     font-size: 1rem;
     text-align: start;
 }     
+
+summary >span {
+    color: var(--black-60, #2D2D2C);
+font-family: Inter;
+font-size: 24px;
+font-style: italic;
+font-weight: 300;
+line-height: 32px; /* 133.333% */
+letter-spacing: -0.72px;
+
+}

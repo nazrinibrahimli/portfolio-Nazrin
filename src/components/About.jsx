@@ -18,38 +18,43 @@ const About = forwardRef((props,ref) => {
 
   return (
     <m.div  initial={{opacity:0}} animate={{opacity:1}} transition={{duration: 0.7, ease: "easeOut"}} ref={ref} className='about-div' id='about'>
-       {/* <img src={nazrinG} alt="" className='nazrin-image' />  */}
-     {/* <img src={react} alt="react logo"  className='animated-icon react'/>
-     <img src={api} alt="api logo"  className='animated-icon api'/>
-     <img src={git} alt="git logo"  className='animated-icon git'/> */}
-     {/* <h1 className="name">   About Me  </h1> */}
 
-       <div>
-       <h1 className='welcome-message'>Nazrin Ibrahimli</h1>
-      {/* <img src={nazrinG} alt="" className='nazrin-image' />  */}
-       <p className='front-developer'>Data Analyst / Flutter Developer </p>
-
-
-
-      <div className="social-media-links-all">
-               <a href="https://www.linkedin.com/in/nazrinibrahimli/"  target="_blank" > 
-              <div className='for-linkedin-logo'></div>
-              </a>
-              <a href="https://github.com/nazrinibrahimli" target="_blank"> 
-              <div className='for-github-logo'></div>
-              </a>
-        </div> 
-
-
+       <div className='first-welcome'>
+       <h1>Developer</h1>  
+       <p id='summary'>Hello World, I'm Nazrin, a front-end web developer, problem solver and artist based in Azerbaijan,Baku.</p>
        </div>
 
+       <h1 className='second-welcome'> & Creative Soul</h1>
 
-       <div className=''>
-       <p className="inside-span"> Hello World, I'm<span className='myName'>Nazrin</span>, a flutter developer, data analyst, problem solver and artist based out of Azerbaijan,Baku. I enjoy integrating creative designs to create appealing, easily accessible, and user-friendly websites and applications. Whether it's a simple landing page or a complex e-commerce platform, I will apply my skills to create a website that is both  and highly functional.</p>
-       <button className='resume-button'>
+
+
+
+        <div className="about-info-button">
+        <p className="inside-span">I enjoy integrating creative designs to create appealing, easily accessible, and user-friendly websites and applications. Whether it's a simple landing page or a complex e-commerce platform, I will apply my skills to create a website that is both  and highly functional.</p>
+        <div className='all-links-div'>
+              <a className='email' href = "mailto:nibrahimli4676@ada.edu.az?subject = Contact for collaboration = Message" target="_blank">
+               <button id='contact-button'>Drop me a line  ↗︎</button> </a> 
+
+      </div>
+        </div>
+       {/* <button className='resume-button'>
         <a href={resume} download="Resume Nazrin Ibrahimli">Resume</a>
-      </button>
-       </div>
+      </button> */}
+             {/* <img src={nazrinG} alt="" className='nazrin-image' />  */}
+        
+
+
+
+            <div className="social-media-links-all">
+            <p className=''>Let's connect </p>
+                       <a href="https://github.com/nazrinibrahimli" target="_blank"> 
+                      <div className='for-github-logo'></div>
+                      </a>
+                      <a href="https://www.linkedin.com/in/nazrinibrahimli/"  target="_blank" > 
+                      <div className='for-linkedin-logo'></div>
+                      </a>
+
+             </div>  
 
 
 
